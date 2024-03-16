@@ -40296,7 +40296,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_UseGeometry: 0
-  m_DefaultArea: 0
+  m_DefaultArea: 1
   m_IgnoreNavMeshAgent: 1
   m_IgnoreNavMeshObstacle: 1
   m_OverrideTileSize: 0
@@ -40305,7 +40305,7 @@ MonoBehaviour:
   m_VoxelSize: 0.16666667
   m_BuildHeightMesh: 0
   m_HideEditorLogs: 0
-  m_NavMeshData: {fileID: 23800000, guid: 3d0b3ac62615e964784eaf3b9597a3ec, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: 86c7790c9c01ee04a9068cd5d38094de, type: 2}
 --- !u!1 &233808325
 GameObject:
   m_ObjectHideFlags: 0
@@ -40983,6 +40983,7 @@ GameObject:
   m_Component:
   - component: {fileID: 560055852}
   - component: {fileID: 560055853}
+  - component: {fileID: 560055854}
   m_Layer: 0
   m_Name: ToiletFloor
   m_TagString: Untagged
@@ -41057,6 +41058,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &560055854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 560055851}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9809bf1345abc5648af68b3a82653f08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_OverrideArea: 1
+  m_Area: 0
+  m_IgnoreFromBuild: 0
+  m_AffectedAgents: ffffffff
 --- !u!1 &564910856
 GameObject:
   m_ObjectHideFlags: 0
@@ -41340,6 +41357,7 @@ GameObject:
   m_Component:
   - component: {fileID: 638419074}
   - component: {fileID: 638419075}
+  - component: {fileID: 638419076}
   m_Layer: 0
   m_Name: ToiletFloor
   m_TagString: Untagged
@@ -41414,6 +41432,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &638419076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 638419073}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9809bf1345abc5648af68b3a82653f08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_OverrideArea: 1
+  m_Area: 0
+  m_IgnoreFromBuild: 0
+  m_AffectedAgents: ffffffff
 --- !u!1 &641288374
 GameObject:
   m_ObjectHideFlags: 0
@@ -41934,6 +41968,7 @@ GameObject:
   m_Component:
   - component: {fileID: 904286640}
   - component: {fileID: 904286641}
+  - component: {fileID: 904286642}
   m_Layer: 0
   m_Name: ToiletFloor
   m_TagString: Untagged
@@ -42008,6 +42043,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &904286642
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 904286639}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9809bf1345abc5648af68b3a82653f08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_OverrideArea: 1
+  m_Area: 0
+  m_IgnoreFromBuild: 0
+  m_AffectedAgents: ffffffff
 --- !u!1 &930631875
 GameObject:
   m_ObjectHideFlags: 0
@@ -67109,6 +67160,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1699036196}
   - component: {fileID: 1699036197}
+  - component: {fileID: 1699036198}
   m_Layer: 0
   m_Name: ToiletFloor
   m_TagString: Untagged
@@ -67183,6 +67235,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1699036198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1699036195}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9809bf1345abc5648af68b3a82653f08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_OverrideArea: 1
+  m_Area: 0
+  m_IgnoreFromBuild: 0
+  m_AffectedAgents: ffffffff
 --- !u!1 &1724423547
 GameObject:
   m_ObjectHideFlags: 0
@@ -67742,6 +67810,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1837714334}
   - component: {fileID: 1837714335}
+  - component: {fileID: 1837714336}
   m_Layer: 0
   m_Name: ToiletFloor
   m_TagString: Untagged
@@ -67816,6 +67885,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1837714336
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1837714333}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9809bf1345abc5648af68b3a82653f08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_OverrideArea: 1
+  m_Area: 0
+  m_IgnoreFromBuild: 0
+  m_AffectedAgents: ffffffff
 --- !u!1 &1878830795
 GameObject:
   m_ObjectHideFlags: 0
@@ -68562,6 +68647,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2118836148}
   - component: {fileID: 2118836149}
+  - component: {fileID: 2118836150}
   m_Layer: 0
   m_Name: ToiletFloor
   m_TagString: Untagged
@@ -68636,6 +68722,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2118836150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2118836147}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9809bf1345abc5648af68b3a82653f08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_OverrideArea: 1
+  m_Area: 0
+  m_IgnoreFromBuild: 0
+  m_AffectedAgents: ffffffff
 --- !u!1 &2134631215
 GameObject:
   m_ObjectHideFlags: 0
