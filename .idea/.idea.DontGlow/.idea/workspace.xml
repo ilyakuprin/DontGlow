@@ -1,202 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="7c87dd99-c8c0-402b-8d6e-0b4ab6d39542" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/DontGlow.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DontGlow.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/OC anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/OC anim/Idle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/OC anim/Idle.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/OC anim/step_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/OC anim/step_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/OC anim/step_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/OC anim/step_2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/UI.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/UI/ui_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/UI/ui_2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/UI/ui_setting.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/UI/ui_setting.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile_map.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile_map/198x198_(5x5).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile_map/198x198_(5x5).png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile_map/198x198_buthfloore.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile_map/198x198_buthfloore.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile_map/door.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile_map/door.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile_map/floor.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile_map/floor.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile_map/tile_map.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile_map/tile_map/198x198_(5x5)_0.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile_map/tile_map/198x198_(5x5)_0.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile_map/tile_map/198x198_(5x5)_1.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile_map/tile_map/198x198_(5x5)_1.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile_map/tile_map/198x198_(5x5)_10.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile_map/tile_map/198x198_(5x5)_10.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile_map/tile_map/198x198_(5x5)_11.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile_map/tile_map/198x198_(5x5)_11.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile_map/tile_map/198x198_(5x5)_12.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile_map/tile_map/198x198_(5x5)_12.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile_map/tile_map/198x198_(5x5)_13.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile_map/tile_map/198x198_(5x5)_13.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile_map/tile_map/198x198_(5x5)_14.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile_map/tile_map/198x198_(5x5)_14.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile_map/tile_map/198x198_(5x5)_15.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile_map/tile_map/198x198_(5x5)_15.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile_map/tile_map/198x198_(5x5)_16.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile_map/tile_map/198x198_(5x5)_16.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile_map/tile_map/198x198_(5x5)_17.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile_map/tile_map/198x198_(5x5)_17.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile_map/tile_map/198x198_(5x5)_18.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile_map/tile_map/198x198_(5x5)_18.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile_map/tile_map/198x198_(5x5)_19.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile_map/tile_map/198x198_(5x5)_19.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile_map/tile_map/198x198_(5x5)_3.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile_map/tile_map/198x198_(5x5)_3.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile_map/tile_map/198x198_(5x5)_4.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile_map/tile_map/198x198_(5x5)_4.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile_map/tile_map/198x198_(5x5)_5.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile_map/tile_map/198x198_(5x5)_5.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile_map/tile_map/198x198_(5x5)_6.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile_map/tile_map/198x198_(5x5)_6.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile_map/tile_map/198x198_(5x5)_7.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile_map/tile_map/198x198_(5x5)_7.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile_map/tile_map/198x198_(5x5)_8.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile_map/tile_map/198x198_(5x5)_8.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile_map/tile_map/198x198_(5x5)_9.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile_map/tile_map/198x198_(5x5)_9.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile_map/tile_map/Floor.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile_map/tile_map/Floor.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile_map/tile_map/Wall.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile_map/tile_map/Wall.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile_map/tile_map/floor_0.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile_map/tile_map/floor_0.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile_map/tile_map/floor_1.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile_map/tile_map/floor_1.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile_map/tile_map/floor_10.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile_map/tile_map/floor_10.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile_map/tile_map/floor_11.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile_map/tile_map/floor_11.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile_map/tile_map/floor_12.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile_map/tile_map/floor_12.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile_map/tile_map/floor_13.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile_map/tile_map/floor_13.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile_map/tile_map/floor_14.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile_map/tile_map/floor_14.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile_map/tile_map/floor_15.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile_map/tile_map/floor_15.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile_map/tile_map/floor_16.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile_map/tile_map/floor_16.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile_map/tile_map/floor_17.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile_map/tile_map/floor_17.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile_map/tile_map/floor_18.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile_map/tile_map/floor_18.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile_map/tile_map/floor_19.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile_map/tile_map/floor_19.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile_map/tile_map/floor_2.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile_map/tile_map/floor_2.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile_map/tile_map/floor_20.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile_map/tile_map/floor_20.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile_map/tile_map/floor_21.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile_map/tile_map/floor_21.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile_map/tile_map/floor_22.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile_map/tile_map/floor_22.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile_map/tile_map/floor_23.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile_map/tile_map/floor_23.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile_map/tile_map/floor_24.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile_map/tile_map/floor_24.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile_map/tile_map/floor_3.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile_map/tile_map/floor_3.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile_map/tile_map/floor_4.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile_map/tile_map/floor_4.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile_map/tile_map/floor_5.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile_map/tile_map/floor_5.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile_map/tile_map/floor_6.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile_map/tile_map/floor_6.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile_map/tile_map/floor_7.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile_map/tile_map/floor_7.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile_map/tile_map/floor_8.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile_map/tile_map/floor_8.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile_map/tile_map/floor_9.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile_map/tile_map/floor_9.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Documentation.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/LiberationSans.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/LiberationSans.ttf.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Drop Shadow.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Drop Shadow.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Outline.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Outline.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Sprite Assets.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Style Sheets.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/TMP Settings.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/TMP Settings.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Sprite.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Sprite.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro.cginc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro.cginc.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne.json.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne.png.meta" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Installers.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Installers/InputInstaller.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Installers/InputInstaller.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Installers/MainHeroInstaller.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Installers/MainHeroInstaller.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/MainHero.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/MainHero/MainHeroView.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/MainHero/MainHeroView.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/MainHero/Movement.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/MainHero/Movement.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/MainHero/MovementAnim.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/MainHero/MovementAnim.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/ScriptableObj.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/ScriptableObj/MainHeroConfig.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/ScriptableObj/MainHeroConfig.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/StringValues/AnimName.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/StringValues/AnimName.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/StringValues/InputName.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/StringValues/InputName.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DontGlow/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DontGlow/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Scenes/DontGlow.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scenes/DontGlow.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Sprites/OC anim/Idle.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Sprites/OC anim/Idle.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Sprites/OC anim/step_1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Sprites/OC anim/step_1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Sprites/OC anim/step_2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Sprites/OC anim/step_2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Sprites/UI/ui_2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Sprites/UI/ui_2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Sprites/UI/ui_setting.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Sprites/UI/ui_setting.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Sprites/tile_map/198x198_(5x5).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Sprites/tile_map/198x198_(5x5).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Sprites/tile_map/198x198_buthfloore.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Sprites/tile_map/198x198_buthfloore.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Sprites/tile_map/door.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Sprites/tile_map/door.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Sprites/tile_map/floor.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Sprites/tile_map/floor.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -209,30 +51,37 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.h8man.2d.navmeshplus@77921afa62/NavMeshComponents/Scripts/NavMeshModifier.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2dlWfuNB5DRA7nKIcXQHbDuNiHn" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;ilya&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "C:\\Users\\Илья\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache",
-      "C:\\Users\\Илья\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache",
-      "C:\\Users\\Илья\\AppData\\Local\\Symbols\\src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\Илья\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\Илья\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\Илья\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="D:\Unity\2022.3.8f1\Editor\Unity.exe" />
@@ -280,6 +129,8 @@
       <option name="presentableId" value="Default" />
       <updated>1710583268708</updated>
       <workItem from="1710583287000" duration="136000" />
+      <workItem from="1710594793483" duration="471000" />
+      <workItem from="1710596762677" duration="12659000" />
     </task>
     <servers />
   </component>
