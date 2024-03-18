@@ -1,11 +1,9 @@
 using System;
-using _DontGlow.Scripts.StringValues;
-using UnityEngine;
 using Zenject;
 
 namespace _DontGlow.Scripts.Inputting
 {
-    public class PlayerInput : ITickable
+    public abstract class PlayerInput : ITickable
     {
         public event Action<InputData> Inputted;
         private InputData _inputData;
@@ -15,16 +13,14 @@ namespace _DontGlow.Scripts.Inputting
         {
             if (_isPause) return;
 
-            _inputData = new InputData()
-            {
-                Direction = new Vector2(Input.GetAxisRaw(InputName.Horizontal),
-                                        Input.GetAxisRaw(InputName.Vertical))
-            };
-
+            _inputData = GetInputData();
+            
             Inputted?.Invoke(_inputData);
         }
 
         public void SetPause(bool value)
             => _isPause = value;
+
+        protected abstract InputData GetInputData();
     }
 }
