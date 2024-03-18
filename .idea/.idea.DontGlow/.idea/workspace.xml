@@ -5,39 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7c87dd99-c8c0-402b-8d6e-0b4ab6d39542" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Installers.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Installers/InputInstaller.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Installers/InputInstaller.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Installers/MainHeroInstaller.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Installers/MainHeroInstaller.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/MainHero.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/MainHero/MainHeroView.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/MainHero/MainHeroView.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/MainHero/Movement.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/MainHero/Movement.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/MainHero/MovementAnim.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/MainHero/MovementAnim.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/ScriptableObj.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/ScriptableObj/MainHeroConfig.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/ScriptableObj/MainHeroConfig.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/StringValues/AnimName.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/StringValues/AnimName.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/StringValues/InputName.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/StringValues/InputName.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Input/Joystick/JoystickInput.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Input/Joystick/JoystickInput.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Input/Keyboard.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Input/Keyboard/KeyboardInput.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Input/Keyboard/KeyboardInput.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DontGlow/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DontGlow/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Scenes/DontGlow.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scenes/DontGlow.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Sprites/OC anim/Idle.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Sprites/OC anim/Idle.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Sprites/OC anim/step_1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Sprites/OC anim/step_1.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Sprites/OC anim/step_2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Sprites/OC anim/step_2.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Sprites/UI/ui_2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Sprites/UI/ui_2.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Sprites/UI/ui_setting.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Sprites/UI/ui_setting.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Sprites/tile_map/198x198_(5x5).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Sprites/tile_map/198x198_(5x5).png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Sprites/tile_map/198x198_buthfloore.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Sprites/tile_map/198x198_buthfloore.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Sprites/tile_map/door.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Sprites/tile_map/door.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Sprites/tile_map/floor.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Sprites/tile_map/floor.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Input/PlayerInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Input/PlayerInput.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -131,6 +106,8 @@
       <workItem from="1710583287000" duration="136000" />
       <workItem from="1710594793483" duration="471000" />
       <workItem from="1710596762677" duration="12659000" />
+      <workItem from="1710703859112" duration="995000" />
+      <workItem from="1710746217588" duration="592000" />
     </task>
     <servers />
   </component>
