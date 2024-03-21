@@ -6,12 +6,11 @@ namespace _DontGlow.Scripts.Inputting
 {
     public class JoystickHandler : MonoBehaviour, IDragHandler, IPointerDownHandler, IPointerUpHandler
     {
+        [SerializeField] private RectTransform _rectangleTouchZone;
+        [SerializeField] private RectTransform[] _touchZone;
         [SerializeField] private RectTransform _joystickArea;
         [SerializeField] private RectTransform _joystickBackground;
         [SerializeField] private Image _joystick;
-
-        [SerializeField] private Color _inactiveJoystickColor;
-        [SerializeField] private Color _activeJoystickColor;
 
         private Vector2 _joystickCreationStartPosition;
         private Vector2 _inputVector;
@@ -20,7 +19,7 @@ namespace _DontGlow.Scripts.Inputting
         
         private void Start()
         {
-            _joystick.color = _inactiveJoystickColor;
+            SetActive(false);
             _joystickCreationStartPosition = _joystickBackground.anchoredPosition;
         }
 
@@ -52,26 +51,28 @@ namespace _DontGlow.Scripts.Inputting
 
         public void OnPointerDown(PointerEventData eventData)
         {
-            _joystick.color = _activeJoystickColor;
-
-            if (RectTransformUtility.ScreenPointToLocalPointInRectangle(_joystickArea,
+            if (!RectTransformUtility.ScreenPointToLocalPointInRectangle(_rectangleTouchZone,
                                                                         eventData.position,
                                                                         null,
-                                                                        out var joystickBackgroundPosition))
-            {
-                _joystickBackground.anchoredPosition =
-                    new Vector2(joystickBackgroundPosition.x, joystickBackgroundPosition.y);
-            }
+                                                                        out var positionClick))
+                return;
+            
+            SetActive(true);
+            
+            _joystickBackground.anchoredPosition = new Vector2(positionClick.x, positionClick.y);
         }
 
         public void OnPointerUp(PointerEventData eventData)
         {
-            _joystick.color = _inactiveJoystickColor;
+            SetActive(false);
 
             _joystickBackground.anchoredPosition = _joystickCreationStartPosition;
 
             _inputVector = Vector2.zero;
             _joystick.rectTransform.anchoredPosition = Vector2.zero;
         }
+        
+        private void SetActive(bool value)
+            => _joystickBackground.gameObject.SetActive(value);
     }
 }

@@ -1,19 +1,12 @@
-using Zenject;
-
 namespace _DontGlow.Scripts.Inputting
 {
-    public class JoystickInput : PlayerInput, IInitializable
+    public class JoystickInput : PlayerInput
     {
         private readonly JoystickHandler _joystickHandler;
 
         public JoystickInput(JoystickHandler joystickHandler)
         {
             _joystickHandler = joystickHandler;
-        }
-
-        public void Initialize()
-        {
-            _joystickHandler.gameObject.SetActive(true);
         }
 
         protected override InputData GetInputData()
