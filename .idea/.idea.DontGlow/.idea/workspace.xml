@@ -5,45 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7c87dd99-c8c0-402b-8d6e-0b4ab6d39542" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Enemy/EnemyMovement.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Enemy/EnemyMovement.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Enemy/EnemyRotation.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Enemy/EnemyRotation.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Installers/EnemyInstaller.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Installers/EnemyInstaller.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Installers/TimerInstaller.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Installers/TimerInstaller.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Timer.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Timer/TimeCounter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Timer/TimeCounter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Timer/TimeDisplaying.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Timer/TimeDisplaying.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Timer/TimerView.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Timer/TimerView.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DontGlow/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DontGlow/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Editor/SpineSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor/SpineSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Animation/Enemy/skeleton.atlas.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Animation/Enemy/skeleton.atlas.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Animation/Enemy/skeleton.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Animation/Enemy/skeleton.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Animation/Enemy/skeleton.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Animation/Enemy/skeleton.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Animation/Enemy/skeleton.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Animation/Enemy/skeleton.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Animation/Enemy/skeleton_Atlas.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Animation/Enemy/skeleton_Atlas.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Animation/Enemy/skeleton_Atlas.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Animation/Enemy/skeleton_Atlas.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Animation/Enemy/skeleton_Material.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Animation/Enemy/skeleton_Material.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Animation/Enemy/skeleton_SkeletonData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Animation/Enemy/skeleton_SkeletonData.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor/SpineSettings.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor/SpineSettings.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Light/ShadowCaster2DCreator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Light/ShadowCaster2DCreator.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Scenes/DontGlow.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scenes/DontGlow.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Scenes/DontGlow/NavMesh-NavMesh.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scenes/DontGlow/NavMesh-NavMesh.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Input/Joystick/JoystickHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Input/Joystick/JoystickHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Input/Joystick/JoystickInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Input/Joystick/JoystickInput.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Installers/InputInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Installers/InputInstaller.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Sprites/Furniture.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Sprites/Furniture.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Sprites/UI/Joystick.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Sprites/UI/Joystick.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Sprites/UI/ui_2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Sprites/UI/ui_2.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Sprites/UI/ui_setting.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Sprites/UI/ui_setting.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Sprites/UI/Безымянный-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Sprites/UI/Безымянный-1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Sprites/tile_map/198x198_(5x5).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Sprites/tile_map/198x198_(5x5).png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Sprites/tile_map/198x198_buthfloore.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Sprites/tile_map/198x198_buthfloore.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Sprites/tile_map/198x198_buthfloore_0.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Sprites/tile_map/198x198_buthfloore_0.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Sprites/tile_map/198x198_buthfloore_1.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Sprites/tile_map/198x198_buthfloore_1.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Sprites/tile_map/door.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Sprites/tile_map/door.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Sprites/tile_map/floor.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Sprites/tile_map/floor.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Sprites/tile_map/floor.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Sprites/tile_map/floor.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +33,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/836aea33117647b388cc5f48bed669c47000/8a/7432630a/RectTransformUtility.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/c36449ed23434499a5579199acc24a87d400/db/f35f61f1/NavMeshAgent.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3ea01e77be99618395f448b16bd7cc2bd4248bd9e5d8474964b2d97f39c5d74/System.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/9384495d2a482ac7341d67ca84e16d267d16c62458a9d67a92b119199a9/System.Threading.Tasks.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_DontGlow/Scripts/Enemy/EnemyView.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_DontGlow/Scripts/Input/Joystick/ActivatingCanvasInput.cs" root0="FORCE_HIGHLIGHTING" />
@@ -73,27 +51,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;ilya&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "C:\\Users\\Илья\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache",
-      "C:\\Users\\Илья\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache",
-      "C:\\Users\\Илья\\AppData\\Local\\Symbols\\src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\Илья\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\Илья\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\Илья\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="D:\Unity\2022.3.8f1\Editor\Unity.exe" />
@@ -146,7 +124,10 @@
       <workItem from="1710703859112" duration="995000" />
       <workItem from="1710746217588" duration="592000" />
       <workItem from="1711022528750" duration="12052000" />
-      <workItem from="1711035916659" duration="10644000" />
+      <workItem from="1711035916659" duration="10904000" />
+      <workItem from="1711110673859" duration="2387000" />
+      <workItem from="1711455021329" duration="29000" />
+      <workItem from="1711455197053" duration="3366000" />
     </task>
     <servers />
   </component>
