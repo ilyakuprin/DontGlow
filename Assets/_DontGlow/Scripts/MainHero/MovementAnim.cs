@@ -15,17 +15,17 @@ namespace _DontGlow.Scripts.MainHero
                             MainHeroView mainHeroView)
         {
             _movement = movement;
-            _moveAnim = new AnimName().Move;
+            _moveAnim = AnimName.Move;
             _animator = mainHeroView.Animator;
         }
 
         public void Initialize()
-            => _movement.Moved += SetAnim;
+            => _movement.Executed += SetAnim;
 
         private void SetAnim(bool value)
             => _animator.SetBool(_moveAnim, value);
 
         public void Dispose()
-            => _movement.Moved -= SetAnim;
+            => _movement.Executed -= SetAnim;
     }
 }

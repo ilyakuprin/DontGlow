@@ -1,54 +1,51 @@
-using System.Threading;
-using Cysharp.Threading.Tasks;
+using System;
 using Spine.Unity;
 using UnityEngine;
 using Zenject;
 
 namespace _DontGlow.Scripts.Enemy
 {
-    public class EnemyRotation : IInitializable
+    public class EnemyRotation : IInitializable, IDisposable
     {
-        private const int CountFrameWait = 10;
-
+        private readonly EnemyMovement _enemyMovement;
         private readonly SkeletonAnimation _spineAnim;
+        
         private Transform _enemy;
-
         private Vector3 _lastPosition;
-        private CancellationToken _ct;
 
-        public EnemyRotation(EnemyView enemyView)
+        public EnemyRotation(EnemyMovement enemyMovement,
+                             EnemyView enemyView)
         {
+            _enemyMovement = enemyMovement;
             _spineAnim = enemyView.SpineAnim;
         }
 
         public void Initialize()
         {
             _enemy = _spineAnim.transform;
-
-            _ct = _spineAnim.GetCancellationTokenOnDestroy();
-            StartRotate();
-        }
-        
-        private void StartRotate()
-            => Rotate().Forget();
-        
-        private async UniTask Rotate()
-        {
             _lastPosition = _enemy.position;
 
-            await UniTask.DelayFrame(CountFrameWait, PlayerLoopTiming.Update, _ct);
+            _enemyMovement.Moved += Rotate;
+        }
 
-            var currentPosition = _enemy.position;
-            var moveVector = currentPosition - _lastPosition;
+        public void Dispose()
+            => _enemyMovement.Moved -= Rotate;
+        
+        private void Rotate()
+        {
+            var enemyPos = _enemy.position;
+            var moveVector = enemyPos - _lastPosition;
 
             Turn(moveVector.x);
-            StartRotate();
+            _lastPosition = enemyPos;
         }
 
         private void Turn(float x)
         {
-            if (x < 0 && _enemy.localScale.x < 0 || x > 0 && _enemy.localScale.x > 0)
-                _enemy.localScale = new Vector3(-_enemy.localScale.x, _enemy.localScale.y, _enemy.localScale.z);
+            var enemyScale = _enemy.localScale;
+            
+            if (x < 0 && enemyScale.x < 0 || x > 0 && enemyScale.x > 0)
+                _enemy.localScale = new Vector3(-enemyScale.x, enemyScale.y, enemyScale.z);
         } 
     }
 }

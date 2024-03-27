@@ -1,21 +1,20 @@
 using System;
 using System.Threading;
+using _DontGlow.Scripts.Pause;
 using Cysharp.Threading.Tasks;
-using UnityEngine;
 using UnityEngine.AI;
 using Zenject;
-using Random = UnityEngine.Random;
 
 namespace _DontGlow.Scripts.Enemy
 {
-    public class EnemyMovement : IInitializable
+    public class EnemyMovement : IInitializable, IPausable
     {
-        private const int CountFrameWait = 10;
-        
+        public event Action Moved; 
         private readonly NavMeshAgent _agent;
 
-        private NavMeshTriangulation _navMeshData;
+        private GettingRandomPositionNavMesh _gettingPosition;
         private CancellationToken _ct;
+        private bool _isPause;
 
         public EnemyMovement(EnemyView enemyView)
         {
@@ -26,40 +25,45 @@ namespace _DontGlow.Scripts.Enemy
         {
             _agent.updateRotation = false;
             _agent.updateUpAxis = false;
-            
-            _navMeshData = NavMesh.CalculateTriangulation();
+
+            _gettingPosition = new GettingRandomPositionNavMesh();
+            _gettingPosition.Init();
+
             _ct = _agent.GetCancellationTokenOnDestroy();
-            MoveToPoint();
-        }
-
-        private void MoveToPoint()
-        {
-            _agent.SetDestination(GetRandomPointNavMesh());
-            WaitReachPath().Forget();
-        }
-
-        private async UniTask WaitReachPath()
-        {
-            while (!_agent.hasPath)
-                await UniTask.DelayFrame(CountFrameWait, PlayerLoopTiming.Update, _ct);
             
-            while (_agent.hasPath)
-                await UniTask.DelayFrame(CountFrameWait, PlayerLoopTiming.Update, _ct);
-
-            MoveToPoint();
+            Move().Forget();
         }
 
-        private Vector3 GetRandomPointNavMesh()
+        public void Continue()
         {
-            //3 - number of triangle vertices.
-            var triangle = Random.Range(0, _navMeshData.indices.Length - 3);
-            var point = _navMeshData.vertices[_navMeshData.indices[triangle]];
-
-            //Random point between vertices.
-            point = Vector3.Lerp(point, _navMeshData.vertices[_navMeshData.indices[triangle + 1]], Random.value);
-            point = Vector3.Lerp(point, _navMeshData.vertices[_navMeshData.indices[triangle + 2]], Random.value);
-
-            return point;
+            _isPause = false;
+            Move().Forget();
         }
+
+        public void Stop()
+        {
+            _isPause = true;
+        }
+
+        private async UniTask Move()
+        {
+            while (IsGamePlaying())
+            {
+                if (!_agent.hasPath)
+                    _agent.SetDestination(_gettingPosition.Get());
+
+                while (IsGamePlaying() && !_agent.hasPath)
+                    await UniTask.NextFrame(_ct);
+
+                while (IsGamePlaying() && _agent.hasPath)
+                {
+                    Moved?.Invoke();
+                    await UniTask.WaitForFixedUpdate(_ct);
+                }
+            }
+        }
+
+        private bool IsGamePlaying()
+            => !_isPause || !_ct.IsCancellationRequested;
     }
 }

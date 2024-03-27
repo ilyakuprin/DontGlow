@@ -1,13 +1,20 @@
 using System;
+using _DontGlow.Scripts.Pause;
 using Zenject;
 
 namespace _DontGlow.Scripts.Inputting
 {
-    public abstract class PlayerInput : ITickable
+    public abstract class PlayerInput : ITickable, IPausable
     {
         public event Action<InputData> Inputted;
         private InputData _inputData;
         private bool _isPause;
+
+        public void Continue()
+            => _isPause = false;
+
+        public void Stop()
+            => _isPause = true;
 
         public void Tick()
         {
@@ -17,9 +24,6 @@ namespace _DontGlow.Scripts.Inputting
             
             Inputted?.Invoke(_inputData);
         }
-
-        public void SetPause(bool value)
-            => _isPause = value;
 
         protected abstract InputData GetInputData();
     }

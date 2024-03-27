@@ -8,7 +8,8 @@ namespace _DontGlow.Scripts.MainHero
 {
     public class Movement : IExecutive, IFixedTickable, IInitializable, IDisposable
     {
-        public event Action<bool> Moved;
+        public event Action<bool> Executed;
+        public event Action<Vector2> Moved;
         
         private const float SpeedError = 0.01f;
         
@@ -36,9 +37,14 @@ namespace _DontGlow.Scripts.MainHero
 
         public void Execute(InputData inputData)
         {
-            _moveVelocity = inputData.Direction.normalized * _speed;
+            var normalizedDirection = inputData.Direction.normalized;
+            _moveVelocity = normalizedDirection * _speed;
 
-            Moved?.Invoke(IsMove());
+            var isMove = IsMove();
+            Executed?.Invoke(isMove);
+            
+            if (isMove)
+                Moved?.Invoke(normalizedDirection);
         }
 
         public void FixedTick()

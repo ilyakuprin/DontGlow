@@ -8,5 +8,7 @@ namespace _DontGlow.Scripts.Enemy
     {
         [field: SerializeField] public NavMeshAgent Agent { get; private set; }
         [field: SerializeField] public SkeletonAnimation SpineAnim { get; private set; }
+        [field: SerializeField] public Transform Eyes { get; private set; }
+        [field: SerializeField] public Transform AttackCollider { get; private set; }
     }
 }

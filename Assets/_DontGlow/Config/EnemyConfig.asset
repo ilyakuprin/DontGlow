@@ -9,8 +9,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2e1153b547ea4db5bdcfdc36501f829b, type: 3}
-  m_Name: MainHeroConfig
+  m_Script: {fileID: 11500000, guid: 39f42f80ac874863bcc4731474815ba7, type: 3}
+  m_Name: EnemyConfig
   m_EditorClassIdentifier: 
-  <Speed>k__BackingField: 7
-  <SpeedRotateFlashlight>k__BackingField: 1000
+  <RadiusLineSight>k__BackingField: 10
+  <RadiusColliderAttack>k__BackingField: 1.83
+  <PatrolSpeed>k__BackingField: 3
+  <HuntingSpeed>k__BackingField: 5
+  <SpeedMultiplier>k__BackingField: 0.05

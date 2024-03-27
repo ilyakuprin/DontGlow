@@ -6,6 +6,6 @@ namespace _DontGlow.Scripts.StringValues
     {
         private const string NameMove = "Move";
         
-        public int Move => Animator.StringToHash(NameMove);
+        public static int Move => Animator.StringToHash(NameMove);
     }
 }
