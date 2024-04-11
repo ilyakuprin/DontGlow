@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5903ea0f3a648e685ab4ac3c944452c, type: 3}
   m_Name: ObjectsConfig
   m_EditorClassIdentifier: 
-  <ObjectsView>k__BackingField: {fileID: -4616380464689323136, guid: 051ff923f9d91ee40bf03c6fb7374939, type: 3}
   <LastNote>k__BackingField: {fileID: 851258278, guid: 3c15c089468b64f1b9b01415aecb35a9, type: 3}
-  _note:
+  _notes:
   - {fileID: -1575181778, guid: 3c15c089468b64f1b9b01415aecb35a9, type: 3}
   - {fileID: -1032680473, guid: 3c15c089468b64f1b9b01415aecb35a9, type: 3}
   - {fileID: 215133810, guid: 3c15c089468b64f1b9b01415aecb35a9, type: 3}

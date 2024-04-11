@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4198390238192150732}
   m_Layer: 0
   m_Name: Note
-  m_TagString: Untagged
+  m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -73,7 +73,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 851258278, guid: 3c15c089468b64f1b9b01415aecb35a9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -142,8 +142,8 @@ GameObject:
   - component: {fileID: 4313426229046363645}
   - component: {fileID: 5982124307569993882}
   m_Layer: 0
-  m_Name: Junk
-  m_TagString: Untagged
+  m_Name: Trap
+  m_TagString: Trap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -203,7 +203,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: -46041599, guid: 3c15c089468b64f1b9b01415aecb35a9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -273,7 +273,7 @@ GameObject:
   - component: {fileID: 6621153937698204740}
   m_Layer: 0
   m_Name: Battery
-  m_TagString: Untagged
+  m_TagString: Battery
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -333,7 +333,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: -432037785, guid: 3c15c089468b64f1b9b01415aecb35a9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -438,3 +438,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   <Note>k__BackingField: {fileID: 7770858408874016469}
+  <Battery>k__BackingField: {fileID: 3136597434831523999}
+  <Junk>k__BackingField: {fileID: 2448884485035610570}

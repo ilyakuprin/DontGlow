@@ -18,6 +18,7 @@ namespace _DontGlow.Scripts.Installers
             Container.BindInterfacesAndSelfTo<Movement>().AsSingle();
             Container.BindInterfacesAndSelfTo<MovementAnim>().AsSingle();
             Container.BindInterfacesAndSelfTo<RotatingFlashlight>().AsSingle();
+            Container.BindInterfacesAndSelfTo<PickingUpItems>().AsSingle();
         }
     }
 }

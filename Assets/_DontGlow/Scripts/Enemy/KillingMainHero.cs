@@ -45,7 +45,7 @@ namespace _DontGlow.Scripts.Enemy
 
             if (hit)
             {
-                Debug.Log("ёбнуло так ёбнуло");
+                Debug.Log("трахнул так трахнул сука чуть не сдохла");
                 Killed?.Invoke();
             }
         }

@@ -4,12 +4,12 @@ using Zenject;
 
 namespace _DontGlow.Scripts.Enemy
 {
-    public class CalculationSpeed : IInitializable, IDisposable
+    public class EnemyCalculationSpeed : IInitializable, IDisposable
     {
         private readonly EnemyConfig _enemyConfig;
         private int _lvlSpeed;
 
-        public CalculationSpeed(EnemyConfig enemyConfig)
+        public EnemyCalculationSpeed(EnemyConfig enemyConfig)
         {
             _enemyConfig = enemyConfig;
         }

@@ -5,56 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7c87dd99-c8c0-402b-8d6e-0b4ab6d39542" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Enemy/CalculationSpeed.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Enemy/CalculationSpeed.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Enemy/DiscoveringMainHero.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Enemy/DiscoveringMainHero.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Enemy/FollowingMainHero.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Enemy/FollowingMainHero.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Enemy/GettingRandomPositionNavMesh.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Enemy/GettingRandomPositionNavMesh.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Enemy/KillingMainHero.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Enemy/KillingMainHero.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Enemy/SettingSpeed.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Enemy/SettingSpeed.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Gizmos.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Gizmos/EnemyGizmos.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Gizmos/EnemyGizmos.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/MainHero/RotatingFlashlight.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/MainHero/RotatingFlashlight.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Objects.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Objects/ObjectsView.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Objects/ObjectsView.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Objects/SpawningObjects.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Objects/SpawningObjects.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Pause.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Pause/IPausable.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Pause/IPausable.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/ScriptableObj/EnemyConfig.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/ScriptableObj/EnemyConfig.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/ScriptableObj/ObjectsConfig.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/ScriptableObj/ObjectsConfig.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/StringValues/LayerString.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/StringValues/LayerString.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Installers/ObjectsInstaller.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Installers/ObjectsInstaller.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DontGlow/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DontGlow/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Animation/Enemy/skeleton_Material.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Animation/Enemy/skeleton_Material.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Config/MainHeroConfig.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Config/MainHeroConfig.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Scenes/DontGlow.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scenes/DontGlow.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Enemy/EnemyMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Enemy/EnemyMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Enemy/EnemyRotation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Enemy/EnemyRotation.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Enemy/EnemyView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Enemy/EnemyView.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Input/PlayerInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Input/PlayerInput.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Enemy/CalculationSpeed.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Enemy/EnemyCalculationSpeed.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Enemy/CalculationSpeed.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Enemy/EnemyCalculationSpeed.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Enemy/SettingSpeed.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Enemy/EnemySettingSpeed.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Enemy/SettingSpeed.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Enemy/EnemySettingSpeed.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Installers/EnemyInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Installers/EnemyInstaller.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Installers/MainHeroInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Installers/MainHeroInstaller.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/MainHero/MainHeroView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/MainHero/MainHeroView.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/MainHero/Movement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/MainHero/Movement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/MainHero/MovementAnim.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/MainHero/MovementAnim.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/ScriptableObj/MainHeroConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/ScriptableObj/MainHeroConfig.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/StringValues/AnimName.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/StringValues/AnimName.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Timer/TimeCounter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Timer/TimeCounter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Timer/TimeDisplaying.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Timer/TimeDisplaying.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Timer/TimerView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Timer/TimerView.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Objects/SpawningObjects.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Objects/SpawningObjects.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/ScriptableObj/ObjectsConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/ScriptableObj/ObjectsConfig.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,8 +26,14 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/10871f9e312b442cb78b9b97db88fdcb172a00/11/79581fcf/Object.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/10871f9e312b442cb78b9b97db88fdcb172a00/1b/2505e853/LayerMask.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/10871f9e312b442cb78b9b97db88fdcb172a00/27/145a9dcc/Renderer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/10871f9e312b442cb78b9b97db88fdcb172a00/4d/e9835172/SpriteRenderer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/10871f9e312b442cb78b9b97db88fdcb172a00/74/d92c227e/Behaviour.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/10871f9e312b442cb78b9b97db88fdcb172a00/b0/3a924606/Gizmos.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/10871f9e312b442cb78b9b97db88fdcb172a00/bc/8d8261ea/Component.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/10871f9e312b442cb78b9b97db88fdcb172a00/bf/84ddb9a0/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/10871f9e312b442cb78b9b97db88fdcb172a00/c5/5cd2917a/Quaternion.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/836aea33117647b388cc5f48bed669c47000/8a/7432630a/RectTransformUtility.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/c36449ed23434499a5579199acc24a87d400/db/f35f61f1/NavMeshAgent.cs" root0="SKIP_HIGHLIGHTING" />
@@ -75,6 +42,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/_DontGlow/Scripts/Enemy/EnemyView.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_DontGlow/Scripts/Input/Joystick/ActivatingCanvasInput.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_DontGlow/Scripts/Objects/SpawningObjects.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_DontGlow/Scripts/Objects/SpawningObjectsView.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cysharp.unitask@809d23edae/Runtime/UniTaskScheduler.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.h8man.2d.navmeshplus@77921afa62/NavMeshComponents/Scripts/NavMeshModifier.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventInterfaces.cs" root0="SKIP_HIGHLIGHTING" />
@@ -90,28 +58,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "ilya",
-    "ignore.virus.scanning.warn.message": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "CodeLensConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;ilya&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;CodeLensConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "C:\\Users\\Илья\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache",
-      "C:\\Users\\Илья\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache",
-      "C:\\Users\\Илья\\AppData\\Local\\Symbols\\src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\Илья\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\Илья\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\Илья\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="D:\Unity\2022.3.8f1\Editor\Unity.exe" />
@@ -171,6 +140,9 @@
       <workItem from="1711475460359" duration="5123000" />
       <workItem from="1711524775528" duration="12171000" />
       <workItem from="1711544731659" duration="27486000" />
+      <workItem from="1711638934287" duration="82000" />
+      <workItem from="1712765497149" duration="7607000" />
+      <workItem from="1712784091874" duration="888000" />
     </task>
     <servers />
   </component>

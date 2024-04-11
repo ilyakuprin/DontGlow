@@ -20,8 +20,8 @@ namespace _DontGlow.Scripts.Installers
             Container.BindInterfacesAndSelfTo<DiscoveringMainHero>().AsSingle();
             Container.BindInterfacesAndSelfTo<FollowingMainHero>().AsSingle();
             Container.BindInterfacesAndSelfTo<KillingMainHero>().AsSingle();
-            Container.BindInterfacesAndSelfTo<SettingSpeed>().AsSingle();
-            Container.BindInterfacesAndSelfTo<CalculationSpeed>().AsSingle();
+            Container.BindInterfacesAndSelfTo<EnemySettingSpeed>().AsSingle();
+            Container.BindInterfacesAndSelfTo<EnemyCalculationSpeed>().AsSingle();
         }
     }
 }

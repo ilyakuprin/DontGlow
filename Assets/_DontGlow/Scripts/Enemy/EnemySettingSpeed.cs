@@ -4,24 +4,24 @@ using Zenject;
 
 namespace _DontGlow.Scripts.Enemy
 {
-    public class SettingSpeed : IInitializable, IDisposable
+    public class EnemySettingSpeed : IInitializable, IDisposable
     {
         private readonly EnemyConfig _enemyConfig;
         private readonly EnemyView _enemyView;
         private readonly DiscoveringMainHero _discoveringMainHero;
-        private readonly CalculationSpeed _calculationSpeed;
+        private readonly EnemyCalculationSpeed _enemyCalculationSpeed;
 
         private bool _isDiscovered = true;
         
-        public SettingSpeed(EnemyConfig enemyConfig,
-                            EnemyView enemyView,
-                            DiscoveringMainHero discoveringMainHero,
-                            CalculationSpeed calculationSpeed)
+        public EnemySettingSpeed(EnemyConfig enemyConfig,
+                                 EnemyView enemyView,
+                                 DiscoveringMainHero discoveringMainHero,
+                                 EnemyCalculationSpeed enemyCalculationSpeed)
         {
             _enemyConfig = enemyConfig;
             _enemyView = enemyView;
             _discoveringMainHero = discoveringMainHero;
-            _calculationSpeed = calculationSpeed;
+            _enemyCalculationSpeed = enemyCalculationSpeed;
         }
 
         public void Initialize()
@@ -41,7 +41,7 @@ namespace _DontGlow.Scripts.Enemy
             if (_isDiscovered) return;
             
             _isDiscovered = true;
-            _enemyView.Agent.speed = _calculationSpeed.Calculate(_enemyConfig.HuntingSpeed);
+            _enemyView.Agent.speed = _enemyCalculationSpeed.Calculate(_enemyConfig.HuntingSpeed);
         } 
 
         private void SetIsNotDiscovered()
@@ -49,7 +49,7 @@ namespace _DontGlow.Scripts.Enemy
             if (!_isDiscovered) return;
             
             _isDiscovered = false;
-            _enemyView.Agent.speed = _calculationSpeed.Calculate(_enemyConfig.PatrolSpeed);
+            _enemyView.Agent.speed = _enemyCalculationSpeed.Calculate(_enemyConfig.PatrolSpeed);
         } 
     }
 }

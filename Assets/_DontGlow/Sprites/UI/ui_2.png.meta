@@ -183,7 +183,7 @@ TextureImporter:
         serializedVersion: 2
         x: 378
         y: 315
-        width: 37
+        width: 17
         height: 104
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -362,6 +362,27 @@ TextureImporter:
       bones: []
       spriteID: b360ec065565345ffb8863ead0fc39f5
       internalID: 1335439476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_2_8
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 315
+        width: 19
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f1393e3ee01d3c4f9c75f57cac66436
+      internalID: -1166035630
       vertices: []
       indices: 
       edges: []
