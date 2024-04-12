@@ -10,7 +10,7 @@ namespace _DontGlow.Scripts.Objects
 
         private readonly PickingUpItems _pickingUpItems;
 
-        private int _counter;
+        public int Count { get; private set; }
 
         public CounterBattery(PickingUpItems pickingUpItems)
         {
@@ -26,11 +26,24 @@ namespace _DontGlow.Scripts.Objects
         {
             _pickingUpItems.TakenBattery += Add;
         }
-
+        
+        public void Subtract()
+        {
+            if (Count > 0)
+            {
+                Count--;
+                CountChanged?.Invoke(Count);
+            }
+            else
+            {
+                throw new Exception("Value cant be < 0");
+            }
+        }
+        
         private void Add()
         {
-            _counter++;
-            CountChanged?.Invoke(_counter);
+            Count++;
+            CountChanged?.Invoke(Count);
         }
     }
 }

@@ -16,6 +16,7 @@ namespace _DontGlow.Scripts.Installers
             Container.BindInterfacesAndSelfTo<ShowingKey>().AsSingle();
             Container.BindInterfacesAndSelfTo<ShowingCountTrap>().AsSingle();
             Container.BindInterfacesAndSelfTo<ShowingCountBattery>().AsSingle();
+            Container.BindInterfacesAndSelfTo<SwitchOnOffButton>().AsSingle();
         }
     }
 }

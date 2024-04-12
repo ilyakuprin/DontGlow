@@ -38,7 +38,7 @@ namespace _DontGlow.Scripts.Timer
 
         private async UniTask Count()
         {
-            while (!_isPause || !_cts.IsCancellationRequested)
+            while (!_isPause && !_cts.IsCancellationRequested)
             {
                 _time += UnityEngine.Time.deltaTime;
                 Counted?.Invoke(_time);

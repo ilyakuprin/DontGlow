@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d488eac5aee247e1bc5d77c2cb6419d2, type: 3}
+  m_Name: FlashlightConfig
+  m_EditorClassIdentifier: 
+  <TimeOneDivisionSec>k__BackingField: 1
+  <Off>k__BackingField: {fileID: 313015988, guid: 729e60e8f5a1d4c238e1767e288047a4, type: 3}
+  <On>k__BackingField: {fileID: 1029827252, guid: 729e60e8f5a1d4c238e1767e288047a4, type: 3}

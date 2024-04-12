@@ -5,21 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7c87dd99-c8c0-402b-8d6e-0b4ab6d39542" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Objects/CounterBattery.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Objects/CounterBattery.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Objects/CounterTrap.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Objects/CounterTrap.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/UI/ShowingCountTrap.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/UI/ShowingCountTrap.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/UI/ShowingKey.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/UI/ShowingKey.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Flashlight.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Flashlight/ChargingChargedFlashlight.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Flashlight/ChargingChargedFlashlight.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Flashlight/FlashlightOnOffSwitch.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Flashlight/FlashlightOnOffSwitch.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Flashlight/FlashlightView.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Flashlight/FlashlightView.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Flashlight/OnOffButton.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Flashlight/OnOffButton.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Flashlight/OnOffFlashlight.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Flashlight/OnOffFlashlight.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Flashlight/RunningLowFlashlight.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Flashlight/RunningLowFlashlight.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Installers/FlashlightInstaller.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Installers/FlashlightInstaller.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/ScriptableObj/FlashlightConfig.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/ScriptableObj/FlashlightConfig.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/UI/ShowingCountDivisionFlashlight.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/UI/ShowingCountDivisionFlashlight.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/UI/SwitchOnOffButton.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/UI/SwitchOnOffButton.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DontGlow/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DontGlow/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Scenes/DontGlow.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scenes/DontGlow.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Installers/ObjectsInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Installers/ObjectsInstaller.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Installers/UiInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Installers/UiInstaller.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Objects/CreatingObjects.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Objects/CreatingObjects.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/UI/AddingNote.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/UI/ShowingCountNote.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/UI/AddingNote.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/UI/ShowingCountNote.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Objects/CounterBattery.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Objects/CounterBattery.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Timer/TimeCounter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Timer/TimeCounter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/UI/UiInGameView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/UI/UiInGameView.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +57,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3ea01e77be99618395f448b16bd7cc2bd4248bd9e5d8474964b2d97f39c5d74/System.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/9384495d2a482ac7341d67ca84e16d267d16c62458a9d67a92b119199a9/System.Threading.Tasks.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_DontGlow/Scripts/Enemy/EnemyView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_DontGlow/Scripts/Flashlight.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_DontGlow/Scripts/Input/Joystick/ActivatingCanvasInput.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_DontGlow/Scripts/Objects/CreatingSequenceNotes.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_DontGlow/Scripts/Objects/SpawningObjectsView.cs" root0="FORCE_HIGHLIGHTING" />
@@ -52,6 +65,7 @@
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.h8man.2d.navmeshplus@77921afa62/NavMeshComponents/Scripts/NavMeshModifier.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventInterfaces.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -149,13 +163,14 @@
       <workItem from="1712765497149" duration="7607000" />
       <workItem from="1712784091874" duration="888000" />
       <workItem from="1712836973643" duration="15814000" />
-      <workItem from="1712903232328" duration="3358000" />
+      <workItem from="1712903232328" duration="18310000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="Both" />
   <component name="VcsManagerConfiguration">
