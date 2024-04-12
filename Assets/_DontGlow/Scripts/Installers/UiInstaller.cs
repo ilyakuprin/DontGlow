@@ -12,7 +12,10 @@ namespace _DontGlow.Scripts.Installers
         {
             Container.Bind<UiInGameView>().FromInstance(_uiInGameView).AsSingle();
             
-            Container.BindInterfacesAndSelfTo<AddingNote>().AsSingle();
+            Container.BindInterfacesAndSelfTo<ShowingCountNote>().AsSingle();
+            Container.BindInterfacesAndSelfTo<ShowingKey>().AsSingle();
+            Container.BindInterfacesAndSelfTo<ShowingCountTrap>().AsSingle();
+            Container.BindInterfacesAndSelfTo<ShowingCountBattery>().AsSingle();
         }
     }
 }

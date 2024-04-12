@@ -17,6 +17,8 @@ namespace _DontGlow.Scripts.Installers
 
             Container.BindInterfacesAndSelfTo<CreatingSequenceNotes>().AsSingle();
             Container.BindInterfacesAndSelfTo<CreatingObjects>().AsSingle();
+            Container.BindInterfacesAndSelfTo<CounterTrap>().AsSingle();
+            Container.BindInterfacesAndSelfTo<CounterBattery>().AsSingle();
         }
     }
 }

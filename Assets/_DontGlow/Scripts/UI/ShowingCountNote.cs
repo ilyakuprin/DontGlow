@@ -5,8 +5,10 @@ using Zenject;
 
 namespace _DontGlow.Scripts.UI
 {
-    public class AddingNote : IInitializable, IDisposable
+    public class ShowingCountNote : IInitializable, IDisposable
     {
+        public event Action LastNodeTaken; 
+        
         private const string Format = "{0}/{1}";
 
         private readonly PickingUpItems _pickingUpItems;
@@ -15,7 +17,7 @@ namespace _DontGlow.Scripts.UI
 
         private int _counter;
 
-        public AddingNote(PickingUpItems pickingUpItems,
+        public ShowingCountNote(PickingUpItems pickingUpItems,
                           UiInGameView uiInGameView,
                           CreatingSequenceNotes creatingSequenceNotes)
         {
@@ -40,11 +42,12 @@ namespace _DontGlow.Scripts.UI
         {
             _counter++;
             Show();
+            
+            if (_counter == _creatingSequenceNotes.Length)
+                LastNodeTaken?.Invoke();
         }
 
         private void Show()
-        {
-            _uiInGameView.Note.text = string.Format(Format, _counter, _creatingSequenceNotes.Length);
-        }
+            => _uiInGameView.Note.text = string.Format(Format, _counter, _creatingSequenceNotes.Length);
     }
 }

@@ -55,16 +55,26 @@ namespace _DontGlow.Scripts.Objects
         {
             if (_counterObject < _creatingSequenceNotes.Length)
             {
-                var objs = GetObjs();
-                SetPosition(objs.transform);
-                ActivateObjs(objs);
-                _counterObject++;
+                CreateObjs();
             }
             else
             {
-                _spawningObjectsView.Key.transform.position = GetPosition();
-                _spawningObjectsView.Key.SetActive(true);
+                CreateKey();
             }
+        }
+
+        private void CreateObjs()
+        {
+            var objs = GetObjs();
+            SetPosition(objs.transform);
+            ActivateObjs(objs);
+            _counterObject++;
+        }
+
+        private void CreateKey()
+        {
+            _spawningObjectsView.Key.transform.position = GetPosition();
+            _spawningObjectsView.Key.SetActive(true);
         }
 
         private void SetPosition(Transform objs)
