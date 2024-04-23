@@ -13,7 +13,7 @@ namespace _DontGlow.Scripts.Enemy
         {
             _enemyConfig = enemyConfig;
         }
-
+        
         public void Initialize()
         {
             

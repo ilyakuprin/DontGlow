@@ -17,3 +17,4 @@ MonoBehaviour:
   <PatrolSpeed>k__BackingField: 3
   <HuntingSpeed>k__BackingField: 5
   <SpeedMultiplier>k__BackingField: 0.05
+  <StandingTimeTrappedInSec>k__BackingField: 5

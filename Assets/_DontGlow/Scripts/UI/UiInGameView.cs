@@ -13,6 +13,7 @@ namespace _DontGlow.Scripts.UI
         [field: SerializeField] public GameObject Key { get; private set; }
         [field: SerializeField] public Button OnOffFlashlight { get; private set; }
         [field: SerializeField] public Image OnOffFlashlightImage { get; private set; }
+        [field: SerializeField] public Button TrapButton { get; private set; }
         
         [SerializeField] private Image[] _division;
 

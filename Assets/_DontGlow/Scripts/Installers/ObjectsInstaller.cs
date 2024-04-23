@@ -1,4 +1,5 @@
 using _DontGlow.Scripts.Objects;
+using _DontGlow.Scripts.Objects.OpenTrap;
 using _DontGlow.Scripts.ScriptableObj;
 using UnityEngine;
 using Zenject;
@@ -19,6 +20,8 @@ namespace _DontGlow.Scripts.Installers
             Container.BindInterfacesAndSelfTo<CreatingObjects>().AsSingle();
             Container.BindInterfacesAndSelfTo<CounterTrap>().AsSingle();
             Container.BindInterfacesAndSelfTo<CounterBattery>().AsSingle();
+            Container.BindInterfacesAndSelfTo<DisablingTrap>().AsSingle();
+            Container.BindInterfacesAndSelfTo<CreateTrap>().AsSingle();
         }
     }
 }

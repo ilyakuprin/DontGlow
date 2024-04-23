@@ -10,5 +10,6 @@ namespace _DontGlow.Scripts.ScriptableObj
         [field: SerializeField, Range(1f, 10f)] public float PatrolSpeed { get; private set; }
         [field: SerializeField, Range(1f, 10f)] public float HuntingSpeed { get; private set; }
         [field: SerializeField, Range(0f, 1f)] public float SpeedMultiplier { get; private set; }
+        [field: SerializeField, Range(1f, 50f)] public float StandingTimeTrappedInSec { get; private set; }
     }
 }
