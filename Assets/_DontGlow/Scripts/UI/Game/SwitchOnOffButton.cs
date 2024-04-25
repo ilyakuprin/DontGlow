@@ -3,7 +3,7 @@ using _DontGlow.Scripts.Flashlight;
 using _DontGlow.Scripts.ScriptableObj;
 using Zenject;
 
-namespace _DontGlow.Scripts.UI
+namespace _DontGlow.Scripts.UI.Game
 {
     public class SwitchOnOffButton : IInitializable, IDisposable
     {

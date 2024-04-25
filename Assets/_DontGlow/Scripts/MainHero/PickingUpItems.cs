@@ -14,6 +14,7 @@ namespace _DontGlow.Scripts.MainHero
         public event Action TakenTrap;
         public event Action TakenNote;
         public event Action TakenKey;
+        public event Action TakenDoorExit;
         
         private readonly MainHeroView _mainHeroView;
         
@@ -32,7 +33,7 @@ namespace _DontGlow.Scripts.MainHero
             
             Detect().Forget();
         }
-        
+
         private async UniTaskVoid Detect()
         {
             while (!_ct.IsCancellationRequested)
@@ -62,6 +63,9 @@ namespace _DontGlow.Scripts.MainHero
                 case TagName.Key:
                     TakenKey?.Invoke();
                     gameObj.SetActive(false);
+                    break;
+                case TagName.Exit:
+                    TakenDoorExit?.Invoke();
                     break;
             }
         }

@@ -38,6 +38,7 @@ namespace _DontGlow.Scripts.Enemy
             _discoveringMainHero.NotDiscovered += SetIsNotDiscovered;
             _interactingWithTrap.Trapped += Trapped;
             _timerStayingInTrap.GotOut += UnTrapped;
+            _enemyCalculationSpeed.Adeed += ReCalculate;
         }
 
         public void Dispose()
@@ -46,6 +47,7 @@ namespace _DontGlow.Scripts.Enemy
             _discoveringMainHero.NotDiscovered -= SetIsNotDiscovered;
             _interactingWithTrap.Trapped -= Trapped;
             _timerStayingInTrap.GotOut -= UnTrapped;
+            _enemyCalculationSpeed.Adeed -= ReCalculate;
         }
 
         private void Trapped()
@@ -63,6 +65,11 @@ namespace _DontGlow.Scripts.Enemy
             
             _isTrapped = false;
 
+            ReCalculate();
+        }
+
+        private void ReCalculate()
+        {
             if (_isDiscovered)
             {
                 _isDiscovered = false;

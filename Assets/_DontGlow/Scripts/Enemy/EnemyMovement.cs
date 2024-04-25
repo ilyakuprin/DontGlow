@@ -64,6 +64,6 @@ namespace _DontGlow.Scripts.Enemy
         }
 
         private bool IsGamePlaying()
-            => !_isPause || !_ct.IsCancellationRequested;
+            => !_isPause && !_ct.IsCancellationRequested;
     }
 }

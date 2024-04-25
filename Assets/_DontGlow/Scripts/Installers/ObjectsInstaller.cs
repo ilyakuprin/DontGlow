@@ -22,6 +22,7 @@ namespace _DontGlow.Scripts.Installers
             Container.BindInterfacesAndSelfTo<CounterBattery>().AsSingle();
             Container.BindInterfacesAndSelfTo<DisablingTrap>().AsSingle();
             Container.BindInterfacesAndSelfTo<CreateTrap>().AsSingle();
+            Container.BindInterfacesAndSelfTo<DoorActivation>().AsSingle();
         }
     }
 }

@@ -20,7 +20,6 @@ namespace _DontGlow.Scripts.Flashlight
         private bool _isPause;
         private float _time;
         private bool _isOn = true;
-        //private bool _isLight = true;
 
         public RunningLowFlashlight(FlashlightConfig flashlightConfig,
                                     CounterBattery counterBattery,
@@ -66,7 +65,7 @@ namespace _DontGlow.Scripts.Flashlight
             StartCount();
         }
 
-        public void ChargeFull()
+        private void ChargeFull()
         {
             CurrentCountDivision = FlashlightConfig.CountDivision;
             DivisionChanged?.Invoke(CurrentCountDivision);

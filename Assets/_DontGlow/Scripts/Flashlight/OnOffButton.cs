@@ -1,5 +1,6 @@
 using System;
 using _DontGlow.Scripts.UI;
+using _DontGlow.Scripts.UI.Game;
 using Zenject;
 
 namespace _DontGlow.Scripts.Flashlight

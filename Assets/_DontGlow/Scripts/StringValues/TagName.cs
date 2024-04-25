@@ -6,5 +6,6 @@ namespace _DontGlow.Scripts.StringValues
         public const string Battery = "Battery";
         public const string Note = "Note";
         public const string Key = "Key";
+        public const string Exit = "Exit";
     }
 }

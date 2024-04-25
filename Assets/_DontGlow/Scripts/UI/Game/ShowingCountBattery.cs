@@ -2,7 +2,7 @@ using System;
 using _DontGlow.Scripts.Objects;
 using Zenject;
 
-namespace _DontGlow.Scripts.UI
+namespace _DontGlow.Scripts.UI.Game
 {
     public class ShowingCountBattery : IInitializable, IDisposable
     {

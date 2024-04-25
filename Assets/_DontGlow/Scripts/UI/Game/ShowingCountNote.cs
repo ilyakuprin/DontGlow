@@ -3,7 +3,7 @@ using _DontGlow.Scripts.MainHero;
 using _DontGlow.Scripts.Objects;
 using Zenject;
 
-namespace _DontGlow.Scripts.UI
+namespace _DontGlow.Scripts.UI.Game
 {
     public class ShowingCountNote : IInitializable, IDisposable
     {

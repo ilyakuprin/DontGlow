@@ -64,7 +64,7 @@ namespace _DontGlow.Scripts.Enemy
         
         private async UniTask Detect()
         {
-            while (!_isPause || !_cts.IsCancellationRequested)
+            while (!_isPause && !_cts.IsCancellationRequested)
             {
                 await UniTask.WaitForFixedUpdate(_cts.Token);
                 

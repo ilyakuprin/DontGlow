@@ -2,7 +2,7 @@ using System;
 using _DontGlow.Scripts.Flashlight;
 using Zenject;
 
-namespace _DontGlow.Scripts.UI
+namespace _DontGlow.Scripts.UI.Game
 {
     public class ShowingCountDivisionFlashlight : IInitializable, IDisposable
     {

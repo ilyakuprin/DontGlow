@@ -7,6 +7,7 @@ namespace _DontGlow.Scripts.Objects
         [field: SerializeField] public ObjectsView Objects1 { get; private set; }
         [field: SerializeField] public ObjectsView Objects2 { get; private set; }
         [field: SerializeField] public GameObject Key { get; private set; }
+        [field: SerializeField] public GameObject Door { get; private set; }
         
         [SerializeField] private Transform[] _poolsSpawn;
         [SerializeField] private GameObject[] _traps;

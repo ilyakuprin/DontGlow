@@ -1,6 +1,7 @@
 using _DontGlow.Scripts.Flashlight;
 using _DontGlow.Scripts.ScriptableObj;
 using _DontGlow.Scripts.UI;
+using _DontGlow.Scripts.UI.Game;
 using UnityEngine;
 using Zenject;
 

@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using Button = UnityEngine.UI.Button;
 
-namespace _DontGlow.Scripts.UI
+namespace _DontGlow.Scripts.UI.Game
 {
     public class UiInGameView : MonoBehaviour
     {

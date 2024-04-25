@@ -1,7 +1,7 @@
 using System;
 using Zenject;
 
-namespace _DontGlow.Scripts.UI
+namespace _DontGlow.Scripts.UI.Game
 {
     public class ShowingKey : IInitializable, IDisposable
     {
