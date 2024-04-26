@@ -23886,7 +23886,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &403227512
 Transform:
   m_ObjectHideFlags: 0
@@ -64319,6 +64319,7 @@ MonoBehaviour:
   <Objects1>k__BackingField: {fileID: 2135405374}
   <Objects2>k__BackingField: {fileID: 2104478066}
   <Key>k__BackingField: {fileID: 971483822}
+  <Door>k__BackingField: {fileID: 403227511}
   _poolsSpawn:
   - {fileID: 343422373}
   - {fileID: 24882158}

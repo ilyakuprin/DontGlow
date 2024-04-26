@@ -5,53 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7c87dd99-c8c0-402b-8d6e-0b4ab6d39542" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Objects/DoorActivation.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Objects/DoorActivation.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Pause/SettingPause.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Pause/SettingPause.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/UI/Game.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/UI/Pause.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/UI/Pause/FadingDefeatCanvas.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/UI/Pause/FadingDefeatCanvas.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/UI/Pause/FadingVictoryCanvas.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/UI/Pause/FadingVictoryCanvas.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/UI/Pause/ShowingDefeat.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/UI/Pause/ShowingDefeat.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/UI/Pause/ShowingVictory.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/UI/Pause/ShowingVictory.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/UI/Pause/UiPauseView.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/UI/Pause/UiPauseView.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.DontGlow/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DontGlow/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Scenes/DontGlow.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scenes/DontGlow.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Enemy/DiscoveringMainHero.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Enemy/DiscoveringMainHero.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Enemy/EnemyCalculationSpeed.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Enemy/EnemyCalculationSpeed.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Enemy/EnemyMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Enemy/EnemyMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Enemy/EnemySettingSpeed.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Enemy/EnemySettingSpeed.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Enemy/KillingMainHero.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Enemy/KillingMainHero.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Flashlight/OnOffButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Flashlight/OnOffButton.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Flashlight/RunningLowFlashlight.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Flashlight/RunningLowFlashlight.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Installers/FlashlightInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Installers/FlashlightInstaller.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Installers/ObjectsInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Installers/ObjectsInstaller.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Installers/UiInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Installers/UiInstaller.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/MainHero/PickingUpItems.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/MainHero/PickingUpItems.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Objects/CounterTrap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Objects/CounterTrap.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Objects/SpawningObjectsView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Objects/SpawningObjectsView.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/StringValues/TagName.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/StringValues/TagName.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/UI/ShowingCountBattery.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/UI/Game/ShowingCountBattery.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/UI/ShowingCountBattery.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/UI/Game/ShowingCountBattery.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/UI/ShowingCountDivisionFlashlight.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/UI/Game/ShowingCountDivisionFlashlight.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/UI/ShowingCountDivisionFlashlight.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/UI/Game/ShowingCountDivisionFlashlight.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/UI/ShowingCountNote.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/UI/Game/ShowingCountNote.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/UI/ShowingCountNote.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/UI/Game/ShowingCountNote.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/UI/ShowingCountTrap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/UI/Game/ShowingCountTrap.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/UI/ShowingCountTrap.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/UI/Game/ShowingCountTrap.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/UI/ShowingKey.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/UI/Game/ShowingKey.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/UI/ShowingKey.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/UI/Game/ShowingKey.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/UI/SwitchOnOffButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/UI/Game/SwitchOnOffButton.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/UI/SwitchOnOffButton.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/UI/Game/SwitchOnOffButton.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/UI/UiInGameView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/UI/Game/UiInGameView.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/UI/UiInGameView.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/UI/Game/UiInGameView.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/UI/Game/ShowingKey.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/UI/Game/ShowingKey.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,6 +140,7 @@
       <workItem from="1712836973643" duration="15814000" />
       <workItem from="1712903232328" duration="18310000" />
       <workItem from="1713878988925" duration="10497000" />
+      <workItem from="1714119565099" duration="383000" />
     </task>
     <servers />
   </component>
