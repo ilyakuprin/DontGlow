@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e1153b547ea4db5bdcfdc36501f829b, type: 3}
   m_Name: MainHeroConfig
   m_EditorClassIdentifier: 
-  <Speed>k__BackingField: 7
-  <SpeedRotateFlashlight>k__BackingField: 1000
+  <Speed>k__BackingField: 6
+  <SpeedRotateFlashlight>k__BackingField: 700

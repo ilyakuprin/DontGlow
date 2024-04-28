@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39f42f80ac874863bcc4731474815ba7, type: 3}
   m_Name: EnemyConfig
   m_EditorClassIdentifier: 
-  <RadiusLineSight>k__BackingField: 10
-  <RadiusColliderAttack>k__BackingField: 1.83
-  <PatrolSpeed>k__BackingField: 3
+  <RadiusLineSight>k__BackingField: 8
+  <RadiusColliderAttack>k__BackingField: 1.5
+  <PatrolSpeed>k__BackingField: 2.5
   <HuntingSpeed>k__BackingField: 5
-  <SpeedMultiplier>k__BackingField: 0.05
+  <SpeedMultiplier>k__BackingField: 0.15
   <StandingTimeTrappedInSec>k__BackingField: 5
