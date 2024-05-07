@@ -18,3 +18,8 @@ MonoBehaviour:
   <HuntingSpeed>k__BackingField: 5
   <SpeedMultiplier>k__BackingField: 0.15
   <StandingTimeTrappedInSec>k__BackingField: 5
+  <MinRandomTimeAudioInSec>k__BackingField: 60
+  <MaxRandomTimeAudioInSec>k__BackingField: 120
+  <PreRun>k__BackingField: {fileID: 8300000, guid: 1cbdae9ae1f1a4c57bcdf70517cae7aa, type: 3}
+  <Run>k__BackingField: {fileID: 8300000, guid: 294da95166983408eaceaca747cc306e, type: 3}
+  <Walking>k__BackingField: {fileID: 8300000, guid: 1ea324474f5e54acab10da541810df99, type: 3}

@@ -1,4 +1,5 @@
 using _DontGlow.Scripts.MainHero;
+using _DontGlow.Scripts.MainHero.Audio;
 using _DontGlow.Scripts.ScriptableObj;
 using UnityEngine;
 using Zenject;
@@ -19,6 +20,8 @@ namespace _DontGlow.Scripts.Installers
             Container.BindInterfacesAndSelfTo<MovementAnim>().AsSingle();
             Container.BindInterfacesAndSelfTo<RotatingFlashlight>().AsSingle();
             Container.BindInterfacesAndSelfTo<PickingUpItems>().AsSingle();
+            Container.BindInterfacesAndSelfTo<PlayingTakingObj>().AsSingle();
+            Container.BindInterfacesAndSelfTo<PlayingExit>().AsSingle();
         }
     }
 }

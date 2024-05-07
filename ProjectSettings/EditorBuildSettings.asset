@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/_DontGlow/Scenes/MenuScene.unity
+    guid: 80a51d6f7ce294bf5960bb9cdc4b5a9a
+  - enabled: 1
     path: Assets/_DontGlow/Scenes/DontGlow.unity
     guid: b83e84a5315b04093bd528906e0a23e9
   m_configObjects: {}

@@ -11,6 +11,7 @@ namespace _DontGlow.Scripts.Flashlight
     public class RunningLowFlashlight : IInitializable, IDisposable, IPausable
     {
         public event Action<int> DivisionChanged;
+        public event Action DivisionsOver;
         
         private readonly FlashlightConfig _flashlightConfig;
         private readonly CancellationTokenSource _cts = new ();
@@ -91,6 +92,8 @@ namespace _DontGlow.Scripts.Flashlight
 
                     if (CurrentCountDivision <= 0)
                     {
+                        DivisionsOver?.Invoke();
+                        
                         if (_counterBattery.Count > 0)
                         {
                             ChargeFull();

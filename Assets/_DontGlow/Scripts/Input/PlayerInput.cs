@@ -18,11 +18,15 @@ namespace _DontGlow.Scripts.Inputting
 
         public void Tick()
         {
-            if (_isPause) return;
-
-            _inputData = GetInputData();
-            
-            Inputted?.Invoke(_inputData);
+            if (_isPause)
+            {
+                Inputted?.Invoke(new InputData());
+            }
+            else
+            {
+                _inputData = GetInputData();
+                Inputted?.Invoke(_inputData);
+            }
         }
 
         protected abstract InputData GetInputData();

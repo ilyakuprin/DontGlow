@@ -1,4 +1,5 @@
 using _DontGlow.Scripts.Enemy;
+using _DontGlow.Scripts.Enemy.Audio;
 using _DontGlow.Scripts.Enemy.Trap;
 using _DontGlow.Scripts.ScriptableObj;
 using UnityEngine;
@@ -26,6 +27,8 @@ namespace _DontGlow.Scripts.Installers
             Container.BindInterfacesAndSelfTo<EnemySettingSpeed>().AsSingle();
             Container.BindInterfacesAndSelfTo<EnemyCalculationSpeed>().AsSingle();
             Container.BindInterfacesAndSelfTo<TimerStayingInTrap>().AsSingle();
+            Container.BindInterfacesAndSelfTo<TurningOnHuntingSound>().AsSingle();
+            Container.BindInterfacesAndSelfTo<PlayingMonsterSound>().AsSingle();
         }
     }
 }

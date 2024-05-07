@@ -13,24 +13,15 @@ namespace _DontGlow.Scripts.Pause
     {
         private readonly KillingMainHero _killingMainHero;
         private readonly PickingUpItems _pickingUpItems;
-        private readonly List<IPausable> _pausables = new(5);
+        private readonly IPausable[] _pausables;
 
         public SettingPause(KillingMainHero killingMainHero,
                             PickingUpItems pickingUpItems,
-                            DiscoveringMainHero discoveringMainHero,
-                            EnemyMovement enemyMovement,
-                            PlayerInput playerInput,
-                            RunningLowFlashlight runningLowFlashlight,
-                            TimeCounter timeCounter)
+                            IPausable[] pausables)
         {
             _killingMainHero = killingMainHero;
             _pickingUpItems = pickingUpItems;
-            
-            _pausables.Add(discoveringMainHero);
-            _pausables.Add(enemyMovement);
-            _pausables.Add(playerInput);
-            _pausables.Add(runningLowFlashlight);
-            _pausables.Add(timeCounter);
+            _pausables = pausables;
         }
 
         public void Initialize()

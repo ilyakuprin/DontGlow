@@ -37,6 +37,7 @@ namespace _DontGlow.Scripts.Installers
             Container.BindInterfacesAndSelfTo<SettingPause>().AsSingle();
             Container.BindInterfacesAndSelfTo<ShowingVictory>().AsSingle();
             Container.BindInterfacesAndSelfTo<FadingVictoryCanvas>().AsSingle();
+            Container.BindInterfacesAndSelfTo<LoadingMenu>().AsSingle();
         }
     }
 }

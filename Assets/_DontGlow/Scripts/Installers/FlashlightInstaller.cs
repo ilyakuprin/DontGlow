@@ -1,6 +1,6 @@
 using _DontGlow.Scripts.Flashlight;
+using _DontGlow.Scripts.Flashlight.Audio;
 using _DontGlow.Scripts.ScriptableObj;
-using _DontGlow.Scripts.UI;
 using _DontGlow.Scripts.UI.Game;
 using UnityEngine;
 using Zenject;
@@ -22,6 +22,7 @@ namespace _DontGlow.Scripts.Installers
             Container.BindInterfacesAndSelfTo<ShowingCountDivisionFlashlight>().AsSingle();
             Container.BindInterfacesAndSelfTo<ChargingChargedFlashlight>().AsSingle();
             Container.BindInterfacesAndSelfTo<FlashlightOnOffSwitch>().AsSingle();
+            Container.BindInterfacesAndSelfTo<PlayingChargingSatDown>().AsSingle();
         }
     }
 }
