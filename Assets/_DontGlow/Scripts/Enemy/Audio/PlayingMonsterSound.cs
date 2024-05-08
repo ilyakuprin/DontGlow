@@ -54,8 +54,11 @@ namespace _DontGlow.Scripts.Enemy.Audio
                 await UniTask.NextFrame(_ct);
             }
 
-            Play();
-            StartTimer();
+            if (!_isPause)
+            {
+                Play();
+                StartTimer();
+            }
         }
 
         private void Play()

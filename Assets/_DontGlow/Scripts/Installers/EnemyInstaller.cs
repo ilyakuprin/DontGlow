@@ -29,6 +29,7 @@ namespace _DontGlow.Scripts.Installers
             Container.BindInterfacesAndSelfTo<TimerStayingInTrap>().AsSingle();
             Container.BindInterfacesAndSelfTo<TurningOnHuntingSound>().AsSingle();
             Container.BindInterfacesAndSelfTo<PlayingMonsterSound>().AsSingle();
+            Container.BindInterfacesAndSelfTo<PlayingAnimation>().AsSingle();
         }
     }
 }

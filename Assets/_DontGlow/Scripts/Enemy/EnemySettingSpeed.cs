@@ -1,5 +1,6 @@
 using System;
 using _DontGlow.Scripts.Enemy.Trap;
+using _DontGlow.Scripts.Pause;
 using _DontGlow.Scripts.ScriptableObj;
 using Zenject;
 
@@ -16,6 +17,8 @@ namespace _DontGlow.Scripts.Enemy
 
         private bool _isDiscovered = true;
         private bool _isTrapped;
+
+        private float _speedBeforePause;
         
         public EnemySettingSpeed(EnemyConfig enemyConfig,
                                  EnemyView enemyView,

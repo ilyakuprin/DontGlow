@@ -2,6 +2,7 @@ using System;
 using System.Threading;
 using _DontGlow.Scripts.Pause;
 using Cysharp.Threading.Tasks;
+using UnityEngine;
 using UnityEngine.AI;
 using Zenject;
 
@@ -15,6 +16,7 @@ namespace _DontGlow.Scripts.Enemy
         private GettingRandomPositionNavMesh _gettingPosition;
         private CancellationToken _ct;
         private bool _isPause;
+        private Vector3 _velocityBeforeStop;
 
         public EnemyMovement(EnemyView enemyView)
         {
@@ -37,12 +39,18 @@ namespace _DontGlow.Scripts.Enemy
         public void Continue()
         {
             _isPause = false;
+            _agent.velocity = _velocityBeforeStop;
+            _agent.isStopped = false;
+            
             Move().Forget();
         }
 
         public void Stop()
         {
             _isPause = true;
+            _velocityBeforeStop = _agent.velocity;
+            _agent.velocity = Vector3.zero;
+            _agent.isStopped = true;
         }
 
         private async UniTask Move()

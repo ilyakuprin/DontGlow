@@ -1,7 +1,8 @@
 using _DontGlow.Scripts.Pause;
+using _DontGlow.Scripts.ScriptableObj;
 using _DontGlow.Scripts.UI.Game;
 using _DontGlow.Scripts.UI.GameStatus;
-using _DontGlow.Scripts.UI.Pause;
+using _DontGlow.Scripts.UI.HeroUi;
 using UnityEngine;
 using Zenject;
 
@@ -11,11 +12,14 @@ namespace _DontGlow.Scripts.Installers
     {
         [SerializeField] private UiInGameView _uiInGameView;
         [SerializeField] private UiPauseView _uiPauseView;
+        [SerializeField] private HeroUiView _heroUiView;
+        [SerializeField] private HeroTextConfig _heroTextConfig;
         
         public override void InstallBindings()
         {
             InstallGameUI();
             InstallPauseUI();
+            InstallHeroUI();
         }
 
         private void InstallGameUI()
@@ -39,6 +43,16 @@ namespace _DontGlow.Scripts.Installers
             Container.BindInterfacesAndSelfTo<ShowingVictory>().AsSingle();
             Container.BindInterfacesAndSelfTo<FadingVictoryCanvas>().AsSingle();
             Container.BindInterfacesAndSelfTo<LoadingMenu>().AsSingle();
+        }
+
+        private void InstallHeroUI()
+        {
+            Container.Bind<HeroUiView>().FromInstance(_heroUiView).AsSingle();
+            Container.Bind<HeroTextConfig>().FromInstance(_heroTextConfig).AsSingle();
+            
+            Container.BindInterfacesAndSelfTo<FadingTextHeroUi>().AsSingle();
+            Container.BindInterfacesAndSelfTo<CreatingSequenceText>().AsSingle();
+            Container.BindInterfacesAndSelfTo<ChangeText>().AsSingle();
         }
     }
 }

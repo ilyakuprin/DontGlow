@@ -4,7 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c87dd99-c8c0-402b-8d6e-0b4ab6d39542" name="Changes" comment="" />
+    <list default="true" id="7c87dd99-c8c0-402b-8d6e-0b4ab6d39542" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Enemy/PlayingAnimation.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Enemy/PlayingAnimation.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/ScriptableObj/HeroTextConfig.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/ScriptableObj/HeroTextConfig.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/UI/HeroUi.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/UI/HeroUi/ChangeText.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/UI/HeroUi/ChangeText.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/UI/HeroUi/CreatingSequenceText.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/UI/HeroUi/CreatingSequenceText.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/UI/HeroUi/FadingTextHeroUi.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/UI/HeroUi/FadingTextHeroUi.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/UI/HeroUi/HeroTextLocalization.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/UI/HeroUi/HeroTextLocalization.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/UI/HeroUi/HeroUiView.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/UI/HeroUi/HeroUiView.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/UI/UIMenu.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/UI/UIMenu/LoadGameScene.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/UI/UIMenu/LoadGameScene.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DontGlow/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DontGlow/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Scenes/DontGlow.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scenes/DontGlow.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Scenes/MenuScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scenes/MenuScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Enemy/Audio/PlayingMonsterSound.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Enemy/Audio/PlayingMonsterSound.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Enemy/EnemyMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Enemy/EnemyMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Enemy/EnemySettingSpeed.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Enemy/EnemySettingSpeed.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Installers/EnemyInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Installers/EnemyInstaller.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Installers/UiInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Installers/UiInstaller.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -143,6 +170,7 @@
       <workItem from="1714577621330" duration="2122000" />
       <workItem from="1715017940442" duration="1431000" />
       <workItem from="1715084065229" duration="10992000" />
+      <workItem from="1715167642830" duration="11805000" />
     </task>
     <servers />
   </component>
