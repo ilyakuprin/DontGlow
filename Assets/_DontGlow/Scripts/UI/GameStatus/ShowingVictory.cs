@@ -2,7 +2,7 @@ using System;
 using _DontGlow.Scripts.MainHero;
 using Zenject;
 
-namespace _DontGlow.Scripts.UI.Pause
+namespace _DontGlow.Scripts.UI.GameStatus
 {
     public class ShowingVictory : IInitializable, IDisposable
     {

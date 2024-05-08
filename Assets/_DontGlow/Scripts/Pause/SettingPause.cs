@@ -1,10 +1,6 @@
 using System;
-using System.Collections.Generic;
 using _DontGlow.Scripts.Enemy;
-using _DontGlow.Scripts.Flashlight;
-using _DontGlow.Scripts.Inputting;
 using _DontGlow.Scripts.MainHero;
-using _DontGlow.Scripts.Timer;
 using Zenject;
 
 namespace _DontGlow.Scripts.Pause
@@ -36,11 +32,19 @@ namespace _DontGlow.Scripts.Pause
             _pickingUpItems.TakenDoorExit -= Pause;
         }
 
-        private void Pause()
+        public void Pause()
         {
             foreach (var pause in _pausables)
             {
                 pause.Stop();
+            }
+        }
+
+        public void UnPause()
+        {
+            foreach (var pause in _pausables)
+            {
+                pause.Continue();
             }
         }
     }

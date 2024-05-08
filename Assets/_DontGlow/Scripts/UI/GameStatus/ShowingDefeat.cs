@@ -1,8 +1,9 @@
 using System;
 using _DontGlow.Scripts.Enemy;
+using _DontGlow.Scripts.UI.Pause;
 using Zenject;
 
-namespace _DontGlow.Scripts.UI.Pause
+namespace _DontGlow.Scripts.UI.GameStatus
 {
     public class ShowingDefeat : IInitializable, IDisposable
     {

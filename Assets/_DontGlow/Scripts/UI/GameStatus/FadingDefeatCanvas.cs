@@ -3,7 +3,7 @@ using _DontGlow.Scripts.Enemy;
 using DG.Tweening;
 using Zenject;
 
-namespace _DontGlow.Scripts.UI.Pause
+namespace _DontGlow.Scripts.UI.GameStatus
 {
     public class FadingDefeatCanvas : IInitializable, IDisposable
     {

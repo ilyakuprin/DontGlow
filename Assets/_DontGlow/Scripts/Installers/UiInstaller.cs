@@ -1,5 +1,6 @@
 using _DontGlow.Scripts.Pause;
 using _DontGlow.Scripts.UI.Game;
+using _DontGlow.Scripts.UI.GameStatus;
 using _DontGlow.Scripts.UI.Pause;
 using UnityEngine;
 using Zenject;
