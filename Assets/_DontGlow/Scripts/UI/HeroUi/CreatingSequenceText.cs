@@ -23,7 +23,7 @@ namespace _DontGlow.Scripts.UI.HeroUi
         public void Initialize()
         {
             FillArray();
-            MixTextWithouFirstAndLast();
+            MixTextWithoutFirstAndLast();
         }
 
         private void FillArray()
@@ -40,7 +40,7 @@ namespace _DontGlow.Scripts.UI.HeroUi
             _heroText[^1] = _heroTextConfig.LastText;
         }
 
-        private void MixTextWithouFirstAndLast()
+        private void MixTextWithoutFirstAndLast()
         {
             for (var i = _heroText.Length - 2; i > 1; i--)
             {
