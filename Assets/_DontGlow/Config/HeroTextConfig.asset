@@ -13,25 +13,37 @@ MonoBehaviour:
   m_Name: HeroTextConfig
   m_EditorClassIdentifier: 
   <FadeTimeInSec>k__BackingField: 1
-  <TimeStayTextInSec>k__BackingField: 3
+  <TimeStayTextInSec>k__BackingField: 5
   _heroText:
-  - Ru: "\u0422\u0435\u043A\u0441\u04423"
-    Eu: Text3
-    Tr: TR3
-  - Ru: "\u0422\u0435\u043A\u0441\u04424"
-    Eu: Text4
-    Tr: TR4
-  - Ru: "\u0422\u0435\u043A\u0441\u04425"
-    Eu: Text5
-    Tr: TR5
-  - Ru: "\u0422\u0435\u043A\u0441\u04426"
-    Eu: Text6
-    Tr: TR6
+  - Ru: "\u041E\u043D\u043E \u0437\u0434\u0435\u0441\u044C!"
+    Eu: There it is!
+    Tr: "\u0130\u015Fte burada!"
+  - Ru: "\u041B\u043E\u0432\u0443\u0448\u043A\u0430 \u0435\u0433\u043E \u0437\u0430\u043C\u0435\u0434\u043B\u0438\u0442"
+    Eu: The trap will slow it down
+    Tr: "Tuzak onu yava\u015Flatacak"
+  - Ru: "\u0411\u043E\u043B\u044C\u0448\u0435 \u043F\u043E\u0434\u0441\u043A\u0430\u0437\u043E\u043A...
+      \u0433\u0434\u0435-\u0442\u043E \u0437\u0434\u0435\u0441\u044C."
+    Eu: More clues... somewhere around here
+    Tr: Daha fazla ipucu... bir yerlerde burada
+  - Ru: "\u0421\u0432\u0435\u0442 \u043C\u0430\u043D\u0438\u0442 \u043C\u043E\u043D\u0441\u0442\u0440\u0430!"
+    Eu: The light attracts the monster!
+    Tr: "I\u015F\u0131k canavar\u0131 cezbediyor!"
+  - Ru: "\u041F\u0443\u0441\u0442\u043E\u0442\u0430... \u0433\u0434\u0435 \u0436\u0435
+      \u043B\u044E\u0434\u0438?"
+    Eu: Emptiness... where are the people?
+    Tr: "Bo\u015Fluk... insanlar nerede?"
+  - Ru: "\u0421\u043B\u044B\u0448\u0443 \u0435\u0433\u043E \u0448\u0430\u0433\u0438..."
+    Eu: I can hear its footsteps...
+    Tr: "Ad\u0131mlar\u0131n\u0131 duyabiliyorum..."
+  - Ru: "\u041D\u0435\u043B\u044C\u0437\u044F \u043E\u0441\u0442\u0430\u043D\u0430\u0432\u043B\u0438\u0432\u0430\u0442\u044C\u0441\u044F!"
+    Eu: We can't stop!
+    Tr: "Duramay\u0131z!"
   <FirstText>k__BackingField:
-    Ru: "\u0422\u0435\u043A\u0441\u04421"
-    Eu: Text1
-    Tr: TR1
+    Ru: "\u0418\u0449\u0443 \u0431\u0430\u0442\u0430\u0440\u0435\u0439\u043A\u0438"
+    Eu: Looking for batteries
+    Tr: "Piller ar\u0131yorum"
   <LastText>k__BackingField:
-    Ru: "\u0422\u0435\u043A\u0441\u04422"
-    Eu: Text2
-    Tr: TR2
+    Ru: "\u041A\u043B\u044E\u0447... \u0433\u0434\u0435-\u0442\u043E \u0440\u044F\u0434\u043E\u043C,
+      \u044F \u0447\u0443\u0432\u0441\u0442\u0432\u0443\u044E!"
+    Eu: The key... it's close, I can feel it!
+    Tr: "Anahtar... \xE7ok yak\u0131n, hissedebiliyorum!"

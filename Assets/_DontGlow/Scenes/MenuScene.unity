@@ -1018,7 +1018,7 @@ MonoBehaviour:
   <TextLocalization>k__BackingField:
     Ru: "\u0420\u0435\u043A\u043E\u0440\u0434"
     Eu: Record
-    Tr: "Kay\u0131t"
+    Tr: Rekor
 --- !u!1 &1020875126
 GameObject:
   m_ObjectHideFlags: 0
@@ -1466,10 +1466,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _audioSource: {fileID: 1131127127}
   _buttons:
-  - {fileID: 0}
-  - {fileID: 1157362549}
-  - {fileID: 969124648}
   - {fileID: 1969987969}
+  - {fileID: 969124648}
+  - {fileID: 1157362549}
 --- !u!114 &1199598354
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1495,8 +1494,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _localizationTexts:
-  - {fileID: 2140175135}
   - {fileID: 1006783513}
+  - {fileID: 2140175135}
 --- !u!1 &1303163873
 GameObject:
   m_ObjectHideFlags: 0
@@ -1984,7 +1983,7 @@ MonoBehaviour:
   _text: {fileID: 2140175133}
   <TextLocalization>k__BackingField:
     Ru: "\u041D\u0430\u0447\u0430\u0442\u044C \u0438\u0433\u0440\u0443"
-    Eu: Start the game
+    Eu: Start game
     Tr: "Oyunu ba\u015Flat"
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
