@@ -1,5 +1,6 @@
 using TMPro;
 using UnityEngine;
+using UnityEngine.Serialization;
 using YG;
 
 namespace _DontGlow.Scripts.Localization
@@ -8,16 +9,27 @@ namespace _DontGlow.Scripts.Localization
     public class LocalizationText : MonoBehaviour
     {
         [SerializeField] private TextMeshProUGUI _text;
-        [SerializeField] private TextLocalization _textLocalization;
-
-        public void Change()
+        [field: FormerlySerializedAs("_textLocalization")] [field: SerializeField] public TextLocalization TextLocalization
         {
-            _text.text = YandexGame.savesData.language switch
+            get;
+            private set;
+        }
+
+        public virtual void Change()
+        {
+            var text = YandexGame.savesData.language switch
             {
-                "ru" => _textLocalization.Ru,
-                "tr" => _textLocalization.Tr,
-                _ => _textLocalization.Eu
+                "ru" => TextLocalization.Ru,
+                "tr" => TextLocalization.Tr,
+                _ => TextLocalization.Eu
             };
+            
+            Set(text);
+        }
+
+        protected void Set(string text)
+        {
+            _text.text = text;
         }
         
         private void OnValidate()

@@ -25,6 +25,12 @@ namespace _DontGlow.Scripts.Saves
             => _pickingUpItems.TakenDoorExit -= Save;
 
         private void Save()
-            => YandexGame.savesData.BestTimeInSec = _timeCounter.Time;
+        {
+            if (YandexGame.savesData.BestTimeInSec == 0 || YandexGame.savesData.BestTimeInSec > _timeCounter.Time)
+            {
+                YandexGame.NewLBScoreTimeConvert("Time", _timeCounter.Time);
+                YandexGame.savesData.BestTimeInSec = _timeCounter.Time;
+            }
+        }
     }
 }
