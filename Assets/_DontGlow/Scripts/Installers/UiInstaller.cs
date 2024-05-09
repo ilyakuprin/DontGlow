@@ -3,7 +3,9 @@ using _DontGlow.Scripts.ScriptableObj;
 using _DontGlow.Scripts.UI.Game;
 using _DontGlow.Scripts.UI.GameStatus;
 using _DontGlow.Scripts.UI.HeroUi;
+using _DontGlow.Scripts.UI.Sound;
 using UnityEngine;
+using UnityEngine.Serialization;
 using Zenject;
 
 namespace _DontGlow.Scripts.Installers
@@ -14,6 +16,7 @@ namespace _DontGlow.Scripts.Installers
         [SerializeField] private UiPauseView _uiPauseView;
         [SerializeField] private HeroUiView _heroUiView;
         [SerializeField] private HeroTextConfig _heroTextConfig;
+        [FormerlySerializedAs("_soundView")] [SerializeField] private SettingsView settingsView;
         
         public override void InstallBindings()
         {
@@ -36,6 +39,7 @@ namespace _DontGlow.Scripts.Installers
         private void InstallPauseUI()
         {
             Container.Bind<UiPauseView>().FromInstance(_uiPauseView).AsSingle();
+            Container.Bind<SettingsView>().FromInstance(settingsView).AsSingle();
             
             Container.BindInterfacesAndSelfTo<FadingDefeatCanvas>().AsSingle();
             Container.BindInterfacesAndSelfTo<ShowingDefeat>().AsSingle();
@@ -43,6 +47,7 @@ namespace _DontGlow.Scripts.Installers
             Container.BindInterfacesAndSelfTo<ShowingVictory>().AsSingle();
             Container.BindInterfacesAndSelfTo<FadingVictoryCanvas>().AsSingle();
             Container.BindInterfacesAndSelfTo<LoadingMenu>().AsSingle();
+            Container.BindInterfacesAndSelfTo<SoundSettings>().AsSingle();
         }
 
         private void InstallHeroUI()

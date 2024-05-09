@@ -17,21 +17,21 @@ MonoBehaviour:
   _heroText:
   - Ru: "\u0422\u0435\u043A\u0441\u04423"
     Eu: Text3
-    Tu: Metin3
+    Tr: TR3
   - Ru: "\u0422\u0435\u043A\u0441\u04424"
     Eu: Text4
-    Tu: Metin4
+    Tr: TR4
   - Ru: "\u0422\u0435\u043A\u0441\u04425"
     Eu: Text5
-    Tu: Metin5
+    Tr: TR5
   - Ru: "\u0422\u0435\u043A\u0441\u04426"
     Eu: Text6
-    Tu: Metin6
+    Tr: TR6
   <FirstText>k__BackingField:
     Ru: "\u0422\u0435\u043A\u0441\u04421"
     Eu: Text1
-    Tu: Metin1
+    Tr: TR1
   <LastText>k__BackingField:
     Ru: "\u0422\u0435\u043A\u0441\u04422"
     Eu: Text2
-    Tu: Metin2
+    Tr: TR2

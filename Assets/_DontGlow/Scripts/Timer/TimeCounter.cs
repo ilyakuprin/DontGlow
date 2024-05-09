@@ -13,8 +13,9 @@ namespace _DontGlow.Scripts.Timer
         private readonly CancellationTokenSource _cts = new ();
         
         private bool _isPause;
-        private float _time;
-        
+
+        public float Time { get; private set; }
+
         public void Initialize()
             => StartCount();
 
@@ -40,8 +41,8 @@ namespace _DontGlow.Scripts.Timer
         {
             while (!_isPause && !_cts.IsCancellationRequested)
             {
-                _time += UnityEngine.Time.deltaTime;
-                Counted?.Invoke(_time);
+                Time += UnityEngine.Time.deltaTime;
+                Counted?.Invoke(Time);
                 await UniTask.NextFrame(_cts.Token);
             }
         }

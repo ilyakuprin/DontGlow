@@ -1,3 +1,4 @@
+using _DontGlow.Scripts.Localization;
 using _DontGlow.Scripts.ScriptableObj;
 using Zenject;
 using UnityEngine;
@@ -8,7 +9,7 @@ namespace _DontGlow.Scripts.UI.HeroUi
     {
         private readonly HeroTextConfig _heroTextConfig;
         
-        private HeroTextLocalization[] _heroText;
+        private TextLocalization[] _heroText;
 
         public CreatingSequenceText(HeroTextConfig heroTextConfig)
         {
@@ -17,7 +18,7 @@ namespace _DontGlow.Scripts.UI.HeroUi
 
         public int Length => _heroText.Length;
 
-        public HeroTextLocalization GetText(int index)
+        public TextLocalization GetText(int index)
             => _heroText[index];
 
         public void Initialize()
@@ -28,7 +29,7 @@ namespace _DontGlow.Scripts.UI.HeroUi
 
         private void FillArray()
         {
-            _heroText = new HeroTextLocalization[_heroTextConfig.LengthAllText];
+            _heroText = new TextLocalization[_heroTextConfig.LengthAllText];
 
             _heroText[0] = _heroTextConfig.FirstText;
             

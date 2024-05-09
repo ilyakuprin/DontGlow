@@ -1272,9 +1272,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc37a55f2b7a48e1b69d900602941989, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _audioMixer: {fileID: 24100000, guid: aff8ec1acb440104f972929042533c15, type: 2}
-  _sliderEffects: {fileID: 5025106460001558771}
-  _sliderMusic: {fileID: 4095922925600986353}
+  Mixer: {fileID: 24100000, guid: aff8ec1acb440104f972929042533c15, type: 2}
+  SliderEffects: {fileID: 5025106460001558771}
+  SliderMusic: {fileID: 4095922925600986353}
+  Dropdown: {fileID: 3558338452324158085}
 --- !u!1 &6536188108000703500
 GameObject:
   m_ObjectHideFlags: 0

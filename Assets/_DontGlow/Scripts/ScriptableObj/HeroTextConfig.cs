@@ -1,3 +1,4 @@
+using _DontGlow.Scripts.Localization;
 using _DontGlow.Scripts.UI.HeroUi;
 using UnityEngine;
 
@@ -11,14 +12,14 @@ namespace _DontGlow.Scripts.ScriptableObj
         
         [field: Space]
         
-        [SerializeField] private HeroTextLocalization[] _heroText;
-        [field: SerializeField] public HeroTextLocalization FirstText { get; private set; }
-        [field: SerializeField] public HeroTextLocalization LastText { get; private set; }
+        [SerializeField] private TextLocalization[] _heroText;
+        [field: SerializeField] public TextLocalization FirstText { get; private set; }
+        [field: SerializeField] public TextLocalization LastText { get; private set; }
 
         public int LengthTextWithoutFirstAnaLast => _heroText.Length;
         public int LengthAllText => LengthTextWithoutFirstAnaLast + 2;
 
-        public HeroTextLocalization GetText(int index)
+        public TextLocalization GetText(int index)
             => _heroText[index];
     }
 }

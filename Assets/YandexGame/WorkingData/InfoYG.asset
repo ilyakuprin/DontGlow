@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efa747916aa66674d96ea40ca8a480b2, type: 3}
   m_Name: InfoYG
   m_EditorClassIdentifier: 
-  scopes: 1
+  scopes: 0
   playerPhotoSize: 0
   autoGameReadyAPI: 1
   playerInfoSimulation:
@@ -23,7 +23,7 @@ MonoBehaviour:
     uniqueID: 000
     photo: https://justplaygames.ru/public/icon_player.png
   AdWhenLoadingScene: 1
-  showFirstAd: 1
+  showFirstAd: 0
   rewardedAfterClosing: 0
   adDisplayCalls: 0
   fullscreenAdInterval: 60
@@ -181,7 +181,7 @@ MonoBehaviour:
       rank: 2
       score: 10
   LocalizationEnable: 1
-  callingLanguageCheck: 1
+  callingLanguageCheck: 0
   translateMethod: 0
   domainAutoLocalization: com
   CSVFileTranslate:
