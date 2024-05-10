@@ -8,7 +8,6 @@ namespace _DontGlow.Scripts.Inputting
     {
         [SerializeField] private RectTransform _rectangleTouchZone;
         [SerializeField] private RectTransform[] _touchZone;
-        [SerializeField] private RectTransform _joystickArea;
         [SerializeField] private RectTransform _joystickBackground;
         [SerializeField] private Image _joystick;
 

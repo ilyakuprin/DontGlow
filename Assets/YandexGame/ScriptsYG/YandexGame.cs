@@ -109,9 +109,6 @@ namespace YG
 
         private void Start()
         {
-            if (infoYG.AdWhenLoadingScene)
-                FullscreenShow();
-
 #if !UNITY_EDITOR
             if (!infoYG.staticRBTInGame)
                 StaticRBTDeactivate();

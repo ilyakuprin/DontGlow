@@ -1,6 +1,7 @@
 using System.Linq;
 using _DontGlow.Scripts.Inputting;
 using UnityEngine;
+using YG;
 using Zenject;
 
 namespace _DontGlow.Scripts.Installers
@@ -12,7 +13,12 @@ namespace _DontGlow.Scripts.Installers
         
         public override void InstallBindings()
         {
-            if (SystemInfo.deviceType == DeviceType.Handheld)
+            if (YandexGame.EnvironmentData.deviceType == "desktop")
+            {
+                Container.Bind(new[] { typeof(PlayerInput) }.Concat(typeof(KeyboardInput).GetInterfaces()))
+                    .To<KeyboardInput>().AsSingle();
+            }
+            else
             {
                 Container.Bind<JoystickHandler>().FromInstance(_joystickHandler).AsSingle();
                 Container.Bind<CanvasInputView>().FromInstance(_canvasInputView).AsSingle();
@@ -21,11 +27,6 @@ namespace _DontGlow.Scripts.Installers
                     .To<JoystickInput>().AsSingle();
 
                 Container.BindInterfacesAndSelfTo<ActivatingCanvasInput>().AsSingle();
-            }
-            else
-            {
-                Container.Bind(new[] { typeof(PlayerInput) }.Concat(typeof(KeyboardInput).GetInterfaces()))
-                    .To<KeyboardInput>().AsSingle();
             }
         }
     }

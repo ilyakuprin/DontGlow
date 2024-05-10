@@ -56,8 +56,6 @@ namespace _DontGlow.Scripts.Saves
 
         private void SetDropdown()
         {
-            Debug.Log(YandexGame.savesData.language);
-            
             _settingsView.Dropdown.value = YandexGame.savesData.language switch
             {
                 "ru" => 0,

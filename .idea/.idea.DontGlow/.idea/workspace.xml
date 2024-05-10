@@ -5,7 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7c87dd99-c8c0-402b-8d6e-0b4ab6d39542" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/UI/HeroUi/CreatingSequenceText.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/UI/HeroUi/CreatingSequenceText.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DontGlow/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DontGlow/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YandexGame/DebuggingMode/Scripts/DebuggingModeYG.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/YandexGame/DebuggingMode/Scripts/DebuggingModeYG.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YandexGame/ScriptsYG/Editor/PostProcessBuild/ModifyIndexFile/BuildLogYG.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/YandexGame/ScriptsYG/Editor/PostProcessBuild/ModifyIndexFile/BuildLogYG.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YandexGame/ScriptsYG/YandexGame.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/YandexGame/ScriptsYG/YandexGame.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Scenes/DontGlow.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scenes/DontGlow.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Scenes/MenuScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scenes/MenuScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Input/Joystick/JoystickHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Input/Joystick/JoystickHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Installers/InputInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Installers/InputInstaller.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Saves/LanguageSaves.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Saves/LanguageSaves.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +38,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f5b293c74049457cabc28437c5a763925a00/12/f12c18b5/IFixedTickable.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3ea01e77be99618395f448b16bd7cc2bd4248bd9e5d8474964b2d97f39c5d74/System.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/9384495d2a482ac7341d67ca84e16d267d16c62458a9d67a92b119199a9/System.Threading.Tasks.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/YandexGame/ScriptsYG/Storage/Storage_yg.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_DontGlow/Scripts/Enemy/EnemySettingSpeed.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_DontGlow/Scripts/Enemy/EnemyView.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_DontGlow/Scripts/Input/Joystick/ActivatingCanvasInput.cs" root0="FORCE_HIGHLIGHTING" />
@@ -146,6 +155,7 @@
       <workItem from="1715017940442" duration="1431000" />
       <workItem from="1715084065229" duration="10992000" />
       <workItem from="1715167642830" duration="11887000" />
+      <workItem from="1715338365804" duration="4548000" />
     </task>
     <servers />
   </component>
