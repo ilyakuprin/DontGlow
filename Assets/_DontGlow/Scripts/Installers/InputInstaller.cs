@@ -1,7 +1,6 @@
 using System.Linq;
 using _DontGlow.Scripts.Inputting;
 using UnityEngine;
-using YG;
 using Zenject;
 
 namespace _DontGlow.Scripts.Installers
@@ -13,7 +12,7 @@ namespace _DontGlow.Scripts.Installers
         
         public override void InstallBindings()
         {
-            if (YandexGame.EnvironmentData.deviceType == "desktop")
+            if (!Application.isMobilePlatform)
             {
                 Container.Bind(new[] { typeof(PlayerInput) }.Concat(typeof(KeyboardInput).GetInterfaces()))
                     .To<KeyboardInput>().AsSingle();
