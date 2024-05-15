@@ -1,24 +1,9 @@
 {
-    "idSave": 12412,
+    "idSave": 12449,
     "isFirstSession": false,
-    "language": "ru",
+    "language": "tr",
     "promptDone": false,
-    "Money": 42,
-    "ClickValue": 2,
-    "NextHeroIndex": 1,
-    "CurrentBoostIndex": 1,
-    "NumberImprovements": [
-        1,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-    ],
-    "IndexSelectedHero": 0,
-    "Mute": false
+    "BestTimeInSec": 0.0,
+    "ValueSliderEffects": 1.0,
+    "ValueSliderMusic": 1.0
 }

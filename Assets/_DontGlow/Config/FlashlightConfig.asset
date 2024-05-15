@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: FlashlightConfig
   m_EditorClassIdentifier: 
   <TimeOneDivisionSec>k__BackingField: 10
-  <Off>k__BackingField: {fileID: 313015988, guid: 729e60e8f5a1d4c238e1767e288047a4, type: 3}
-  <On>k__BackingField: {fileID: 1029827252, guid: 729e60e8f5a1d4c238e1767e288047a4, type: 3}
+  <Off>k__BackingField: {fileID: 562061525, guid: c316fe79710b36642a78b49019f08c95, type: 3}
+  <On>k__BackingField: {fileID: -1623902616, guid: c316fe79710b36642a78b49019f08c95, type: 3}

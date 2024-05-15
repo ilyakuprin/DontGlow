@@ -1,6 +1,8 @@
 using System;
+using System.Threading;
 using _DontGlow.Scripts.Objects.OpenTrap;
 using _DontGlow.Scripts.StringValues;
+using Cysharp.Threading.Tasks;
 using UnityEngine;
 using Zenject;
 
@@ -15,9 +17,13 @@ namespace _DontGlow.Scripts.Enemy.Trap
         
         private int _trapLayer;
         private bool _isTrapped;
+        private CancellationToken _ct;
         
         private void Awake()
             => _trapLayer = LayerMask.NameToLayer(LayerString.Trap);
+
+        private void Start()
+            => _ct = this.GetCancellationTokenOnDestroy();
 
         private void OnTriggerEnter2D(Collider2D other)
         {
@@ -36,5 +42,15 @@ namespace _DontGlow.Scripts.Enemy.Trap
 
         private void OnDisable()
             => _timerStayingInTrap.GotOut -= UnTrapped;
+        
+        private async UniTask WaitInject()
+        {
+            while (_timerStayingInTrap == null)
+            {
+                await UniTask.NextFrame(_ct);
+            }
+            
+            _timerStayingInTrap.GotOut += UnTrapped;
+        }
     }
 }

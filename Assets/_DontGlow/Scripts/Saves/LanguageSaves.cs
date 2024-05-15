@@ -21,7 +21,7 @@ namespace _DontGlow.Scripts.Saves
         public void Initialize()
         {
             _saving.SaveDataReceived += SetDropdown;
-            
+
             _settingsView.Dropdown.onValueChanged.AddListener(SetLanguage);
         }
 

@@ -5,15 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7c87dd99-c8c0-402b-8d6e-0b4ab6d39542" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Installers/InitializationZenject.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Installers/InitializationZenject.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/UI/LoadingScreen.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/UI/LoadingScreen/PointsAnimShowing.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/UI/LoadingScreen/PointsAnimShowing.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/UI/LoadingScreen/WaitingLoadingSdk.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/UI/LoadingScreen/WaitingLoadingSdk.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DontGlow/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DontGlow/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/YandexGame/DebuggingMode/Scripts/DebuggingModeYG.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/YandexGame/DebuggingMode/Scripts/DebuggingModeYG.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/YandexGame/ScriptsYG/Editor/PostProcessBuild/ModifyIndexFile/BuildLogYG.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/YandexGame/ScriptsYG/Editor/PostProcessBuild/ModifyIndexFile/BuildLogYG.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/YandexGame/ScriptsYG/YandexGame.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/YandexGame/ScriptsYG/YandexGame.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YandexGame/WorkingData/Editor/SavesEditorYG.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/YandexGame/WorkingData/Editor/SavesEditorYG.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Config/FlashlightConfig.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Config/FlashlightConfig.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Prefabs/Setting.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Prefabs/Setting.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Scenes/DontGlow.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scenes/DontGlow.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Scenes/MenuScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scenes/MenuScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Input/Joystick/JoystickHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Input/Joystick/JoystickHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Installers/InputInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Installers/InputInstaller.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Enemy/Trap/InteractingWithTrap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Enemy/Trap/InteractingWithTrap.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Localization/ChangeLanguage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Localization/ChangeLanguage.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Saves/LanguageSaves.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Scripts/Saves/LanguageSaves.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Sprites/UI/ui_in_game_atlas.spriteatlasv2" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Sprites/UI/ui_in_game_atlas.spriteatlasv2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Sprites/UI/ui_in_game_atlas.spriteatlasv2.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Sprites/UI/ui_in_game_atlas.spriteatlasv2.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_DontGlow/Sprites/UI/ui_setting_atlas.spriteatlasv2" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DontGlow/Sprites/UI/ui_setting_atlas.spriteatlasv2" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,6 +169,8 @@
       <workItem from="1715167642830" duration="11887000" />
       <workItem from="1715338365804" duration="4548000" />
       <workItem from="1715343588495" duration="1605000" />
+      <workItem from="1715625592684" duration="6136000" />
+      <workItem from="1715683812106" duration="2369000" />
     </task>
     <servers />
   </component>
